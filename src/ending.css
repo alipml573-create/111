@@ -1,0 +1,171 @@
+/* 15 — a cinematic handoff: editable copy over independently layered supplied artwork. */
+.slide-15{
+ --ending-blue:#153f80;
+ --ending-green:#77af56;
+}
+.slide-15 .slide-content{
+ inset:0;
+ overflow:hidden;
+}
+.slide-15 .slide-meta{
+ z-index:30;
+ color:#163f79;
+ border-color:#245a9630;
+ text-shadow:0 1px 8px #fff;
+}
+.ending-campus-layout{
+ position:absolute!important;
+ inset:0!important;
+ width:100%;
+ height:100%;
+ margin:0!important;
+ min-height:0!important;
+ display:block!important;
+ overflow:hidden;
+ isolation:isolate;
+}
+.ending-scene,
+.ending-scene>img{
+ position:absolute;
+ pointer-events:none;
+ user-select:none;
+}
+.ending-scene{inset:0;z-index:1}
+.ending-scene>img{display:block;max-width:none}
+
+/* Background embellishments sit behind the handoff actors. */
+.ending-trail{
+ z-index:1;
+ left:-40px;
+ top:34px;
+ width:1645px;
+ height:auto;
+ opacity:.96;
+}
+.ending-growth-path{
+ z-index:2;
+ left:10px;
+ bottom:200px;
+ width:1510px;
+ height:auto;
+}
+.ending-script{z-index:3;height:auto;filter:drop-shadow(0 2px 8px #ffffffb8)}
+.ending-script-future{left:1010px;top:92px;width:264px}
+.ending-script-world{right:82px;top:108px;width:218px}
+.ending-script-image{z-index:5;left:390px;bottom:130px;width:280px}
+.ending-script-next{left:930px;bottom:125px;width:230px}
+
+/* Foreground evidence and characters deliberately overlap in this order. */
+.ending-academy-stone{
+ z-index:4;
+ left:-26px;
+ bottom:116px;
+ width:500px;
+ height:auto;
+}
+.ending-lead{
+ z-index:6;
+ left:618px;
+ bottom:-25px;
+ width:560px;
+ height:auto;
+ filter:drop-shadow(0 18px 28px #0c315035);
+}
+.ending-memory-film{
+ z-index:8;
+ left:-70px;
+ bottom:-120px;
+ width:735px;
+ height:auto;
+ filter:drop-shadow(0 10px 18px #0e2a4938);
+}
+.ending-students{
+ z-index:9;
+ right:-82px;
+ bottom:-128px;
+ width:580px;
+ height:auto;
+ filter:drop-shadow(-7px 14px 22px #15345b2d);
+}
+.ending-handoff-plane{
+ z-index:10;
+ left:1015px;
+ top:480px;
+ width:365px;
+ height:auto;
+ transform:rotate(2deg);
+ filter:drop-shadow(0 0 18px #ffd65eb5);
+}
+
+.slide-15 .ending-copy{
+ position:absolute;
+ z-index:12;
+ left:82px;
+ top:126px;
+ width:700px;
+ padding:0;
+ color:var(--ending-blue);
+}
+.slide-15 .ending-copy .eyebrow{
+ margin:0 0 16px;
+ color:var(--ending-blue);
+ font-size:16px;
+ font-weight:650;
+ letter-spacing:.38em;
+ text-shadow:0 1px 9px #fff;
+}
+.slide-15 .ending-copy .gold-rule{
+ width:22px;
+ background:var(--ending-blue);
+}
+.reveal .slides .slide-15 .ending-copy>h2{
+ margin:0;
+ color:var(--ending-blue);
+ font-family:var(--serif);
+ font-size:82px!important;
+ font-weight:700!important;
+ line-height:1.1!important;
+ letter-spacing:.035em!important;
+ white-space:nowrap;
+ text-shadow:0 4px 16px #ffffffb8;
+}
+.slide-15 .ending-subtitle{
+ position:relative;
+ display:inline-block;
+ margin:23px 0 0 18px;
+ padding:0 20px 13px 0;
+ color:#173f79;
+ font-family:var(--serif);
+ font-size:31px;
+ font-weight:600;
+ line-height:1.25!important;
+ letter-spacing:.08em;
+ white-space:nowrap;
+ text-shadow:0 2px 9px #fff;
+}
+.slide-15 .ending-subtitle::after{
+ content:"";
+ position:absolute;
+ left:64px;
+ right:-12px;
+ bottom:0;
+ height:3px;
+ border-radius:99px;
+ background:linear-gradient(90deg,#89bd67 0%,#89bd67 72%,transparent 100%);
+ transform:rotate(-2deg);
+ box-shadow:0 0 8px #fff;
+}
+.slide-15 .ending-credit{
+ z-index:14;
+ right:121px;
+ bottom:78px;
+ color:#244b79;
+ font-size:11px;
+ font-weight:600;
+ letter-spacing:.14em;
+ text-shadow:0 1px 7px #fff;
+}
+
+/* Editing handles may select the text but must not disturb the decorative stack. */
+.slide-15 .ending-copy .editable{position:relative}
+.reveal.overview .slide-15 .ending-campus-layout{overflow:hidden}

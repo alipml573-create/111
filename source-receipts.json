@@ -1,0 +1,132 @@
+[
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/LICENSE.md",
+    "local": "vendor/react-bits/LICENSE.md",
+    "sha256": "f4c33af6739191537738662d223b68d77bc226f4b57ea883e16481d8cc5c73c9",
+    "git_blob_sha": "6425315416e94469f28d0223a09f7285b2f785ab",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "src/ts-default/Backgrounds/Aurora/Aurora.tsx",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/src/ts-default/Backgrounds/Aurora/Aurora.tsx",
+    "local": "vendor/react-bits/src/ts-default/Backgrounds/Aurora/Aurora.tsx",
+    "sha256": "b843f6bdb6f67200f5fba3d4052238d5d9a9d4dd26c6a6faf53590bc40cf1ead",
+    "git_blob_sha": "7364797138fde240992bf069a9946d4929e998fc",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "src/ts-default/Backgrounds/Aurora/Aurora.css",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/src/ts-default/Backgrounds/Aurora/Aurora.css",
+    "local": "vendor/react-bits/src/ts-default/Backgrounds/Aurora/Aurora.css",
+    "sha256": "2df81fdc13c0e763f17aec359863d3d0ec8ef97e442788be47635882f480467d",
+    "git_blob_sha": "8997510b5186ad0b587261cd38634faddf006a7f",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "src/ts-default/TextAnimations/BlurText/BlurText.tsx",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/src/ts-default/TextAnimations/BlurText/BlurText.tsx",
+    "local": "vendor/react-bits/src/ts-default/TextAnimations/BlurText/BlurText.tsx",
+    "sha256": "b62b8308c8c8c6c71fdd80f6bf874d2ef991f1937350c46f0f88c9e1385943a1",
+    "git_blob_sha": "a7765cd98025d3de4d17903aa574d033210e626f",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "src/ts-default/Components/SpotlightCard/SpotlightCard.tsx",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/src/ts-default/Components/SpotlightCard/SpotlightCard.tsx",
+    "local": "vendor/react-bits/src/ts-default/Components/SpotlightCard/SpotlightCard.tsx",
+    "sha256": "4539624fd2c8caeb8ded04dfa639a39c05c585bd5d63559ea525f5e13b1ee2f9",
+    "git_blob_sha": "8d50fe0c6dccae21c13041078acf7c99c3a2da4d",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "DavidHDev/react-bits",
+    "source": "src/ts-default/Components/SpotlightCard/SpotlightCard.css",
+    "url": "https://raw.githubusercontent.com/DavidHDev/react-bits/65305ea89e27e9a64abcd2c331d21f8e3c25aa6c/src/ts-default/Components/SpotlightCard/SpotlightCard.css",
+    "local": "vendor/react-bits/src/ts-default/Components/SpotlightCard/SpotlightCard.css",
+    "sha256": "d2e0a07a5b9edf383c74d7a3ee93d9e0c6cdfff21c861c67dca1ce88902d08f9",
+    "git_blob_sha": "ee533751260e7a86cf1a13523b5a1c7ba0a0bb97",
+    "source_tree_sha": "65305ea89e27e9a64abcd2c331d21f8e3c25aa6c",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/LICENSE.md",
+    "local": "vendor/magicui/LICENSE.md",
+    "sha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba",
+    "git_blob_sha": "30efc351ba9c469535dc012930ba6ee30c23f957",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/registry/magicui/number-ticker.tsx",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/registry/magicui/number-ticker.tsx",
+    "local": "vendor/magicui/apps/www/registry/magicui/number-ticker.tsx",
+    "sha256": "0f7dcbc6a1962615a877590304e846f33d390002a51f2226f544938577c220f4",
+    "git_blob_sha": "99ef26e27af2989b1951248cd942a488e5de0feb",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/registry/magicui/blur-fade.tsx",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/registry/magicui/blur-fade.tsx",
+    "local": "vendor/magicui/apps/www/registry/magicui/blur-fade.tsx",
+    "sha256": "99a8e83aa8817f48e26d921e959ff9abefb5c2f1f0b72b166ed95e88e015949f",
+    "git_blob_sha": "fe7ca1e575afd280907cca70b55186870c368f13",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/registry/magicui/bento-grid.tsx",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/registry/magicui/bento-grid.tsx",
+    "local": "vendor/magicui/apps/www/registry/magicui/bento-grid.tsx",
+    "sha256": "9c2abcb2a4e51519e56d510299771a2d0e170ab9927a9a792a58614b1837ed47",
+    "git_blob_sha": "7d1062504b2562c4333106a5a9e9e2197f792fe1",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/components/ui/button.tsx",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/components/ui/button.tsx",
+    "local": "support/components/ui/button.tsx",
+    "sha256": "881fabaf889450b7c671ffabe455bd4b4d101c36f80868f1bf4819ba5f4f4886",
+    "git_blob_sha": "4e88e51c59fa26c8a55e96a12fd4cf71ba756acf",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/lib/utils.ts",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/lib/utils.ts",
+    "local": "vendor/magicui/apps/www/lib/utils.ts",
+    "sha256": "e7c07dc285a0a7ad16ca4c94204ca97cb94face47004827fc6bece0d28a9394c",
+    "git_blob_sha": "f610181c1aae1c775d5b466d3a61a05110683b90",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  },
+  {
+    "repository": "magicuidesign/magicui",
+    "source": "apps/www/registry/lib/utils.ts",
+    "url": "https://raw.githubusercontent.com/magicuidesign/magicui/2d671cc6c0e0f40e28682c9cbddd16694dcfe627/apps/www/registry/lib/utils.ts",
+    "local": "support/lib/utils.ts",
+    "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d",
+    "git_blob_sha": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+    "source_tree_sha": "2d671cc6c0e0f40e28682c9cbddd16694dcfe627",
+    "source_ref_type": "git-tree"
+  }
+]

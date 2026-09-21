@@ -1,0 +1,102 @@
+/* Page 06 only — sunlit content-operations studio based on the supplied board. */
+.slide-6 .slide-content{
+ top:72px;left:70px;right:118px;bottom:72px;overflow:visible;
+}
+.slide-6 .slide-meta{font-size:20px;letter-spacing:.06em;color:#163f78}
+.slide-6 .guangdong-scene{
+ position:absolute;inset:-72px -118px -72px -70px;height:auto;z-index:0;pointer-events:none;
+ background:
+  linear-gradient(90deg,rgba(242,249,255,.24) 0%,rgba(234,246,255,.08) 48%,rgba(239,248,255,.18) 100%),
+  linear-gradient(180deg,rgba(255,255,255,.02) 52%,rgba(234,246,255,.24) 100%);
+}
+.slide-6 .guangdong-header,.slide-6 .guangdong-layout{position:relative;z-index:1}
+.slide-6 .guangdong-header{
+ display:grid;grid-template-columns:minmax(0,1fr) 450px;gap:32px;align-items:start;height:194px;
+}
+.slide-6 .guangdong-heading{position:relative;min-width:0}
+.slide-6 .guangdong-header .section-heading{margin:0}
+.slide-6 .section-heading .eyebrow{
+ font-size:18px;line-height:1.2;letter-spacing:.08em;margin-bottom:8px;color:#17539e;
+}
+.reveal .slides .slide-6 .section-heading h2{
+ font-family:var(--serif);font-size:58px;line-height:1.13;font-weight:700;letter-spacing:.02em;
+ color:#0c386f;text-shadow:0 1px 0 #fff9;
+}
+.reveal .slides .slide-6 .section-subtitle{
+ font-size:24px;line-height:1.35;margin-top:4px;color:#285c96;font-weight:500;
+}
+.slide-6 .guangdong-handwriting{
+ position:absolute;left:430px;top:102px;z-index:2;
+ font-family:"Kaiti SC","STKaiti","KaiTi",cursive;font-size:26px;line-height:1.16;
+ color:#2f73c8;letter-spacing:.08em;text-align:center;transform:rotate(-6deg);
+ text-shadow:0 1px 0 #fff;
+}
+.slide-6 .guangdong-handwriting::after{
+ content:"";display:block;width:172px;height:14px;margin:-1px auto 0;
+ border-bottom:3px solid #2f73c8;border-radius:50%;transform:rotate(-3deg);opacity:.78;
+}
+.slide-6 .guangdong-glass{
+ border:1px solid rgba(255,255,255,.86);border-radius:20px;
+ background:linear-gradient(145deg,rgba(250,253,255,.88),rgba(228,242,255,.72));
+ color:#0e3b76;backdrop-filter:blur(15px) saturate(1.08);-webkit-backdrop-filter:blur(15px) saturate(1.08);
+ box-shadow:0 14px 34px rgba(28,87,153,.12),inset 0 1px 0 rgba(255,255,255,.92),inset 0 0 24px rgba(109,183,255,.1);
+}
+.slide-6 .guangdong-keywords{
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px;
+ margin-top:10px;padding:22px 28px 20px;min-height:126px;
+}
+.slide-6 .guangdong-keywords li{
+ display:flex;align-items:center;gap:13px;font-size:26px;line-height:1.2;font-weight:700;color:#123f7b;white-space:nowrap;
+}
+.slide-6 .guangdong-keywords svg{
+ width:27px;height:27px;stroke-width:2.25;color:#4084e5;filter:drop-shadow(0 3px 5px rgba(63,132,229,.2));
+}
+.slide-6 .guangdong-layout{
+ display:grid;grid-template-columns:535px minmax(0,1fr);gap:18px;height:584px;margin-top:-10px;
+}
+.slide-6 .guangdong-details{
+ display:grid;grid-template-rows:160px 150px minmax(0,1fr);gap:12px;min-width:0;min-height:0;
+}
+.slide-6 .guangdong-card{
+ display:grid;grid-template-columns:70px minmax(0,1fr);gap:16px;align-items:center;padding:10px 20px 10px 16px;
+ min-width:0;min-height:0;
+}
+.slide-6 .guangdong-card-icon{
+ width:62px;height:62px;border-radius:50%;display:grid;place-items:center;
+ color:#fff;background:radial-gradient(circle at 35% 28%,#8dc8ff 0 18%,#438ff2 52%,#2465ce 100%);
+ border:1px solid rgba(255,255,255,.94);box-shadow:0 0 0 9px rgba(111,177,255,.12),0 8px 18px rgba(39,103,191,.24),inset 0 1px 8px rgba(255,255,255,.72);
+}
+.slide-6 .guangdong-card-icon svg{width:31px;height:31px;stroke-width:2.1}
+.slide-6 .guangdong-card-body{min-width:0}
+.slide-6 .guangdong-card-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:4px}
+.reveal .slides .slide-6 .guangdong-card-heading h3{
+ font-family:var(--sans);font-size:31px;line-height:1.1;font-weight:750;color:#0e3b76;flex:none;
+}
+.slide-6 .guangdong-metric{
+ font-family:var(--number);font-size:37px;line-height:1;font-weight:700;letter-spacing:-.025em;color:#1760bd;white-space:nowrap;
+}
+.slide-6 .guangdong-results .guangdong-metric{font-size:29px;letter-spacing:-.035em}
+.reveal .slides .slide-6 .guangdong-copy{
+ font-family:var(--sans);font-size:26px;line-height:1.24;font-weight:500;color:#1b4f88;
+ white-space:normal;text-wrap:pretty;margin:0;
+}
+.slide-6 .guangdong-copy strong{color:#0a3a76;font-weight:750}
+.slide-6 .guangdong-evidence{
+ display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 300px;
+ grid-template-rows:226px minmax(0,1fr);gap:10px;min-width:0;min-height:0;
+}
+.slide-6 .guangdong-media{min-width:0;min-height:0;margin:0;position:relative}
+.slide-6 .guangdong-media-account{grid-row:1 / 3}
+.slide-6 .guangdong-media-account:nth-child(1){grid-column:1}
+.slide-6 .guangdong-media-account:nth-child(2){grid-column:2}
+.slide-6 .guangdong-media-graphics{grid-column:3;grid-row:1}
+.slide-6 .guangdong-media-partnership{grid-column:3;grid-row:2}
+.slide-6 .guangdong-media>.image-frame{width:100%;height:100%;min-height:0;background:transparent}
+.slide-6 .guangdong-media .image-button{background:transparent;border-radius:18px;overflow:visible}
+.slide-6 .guangdong-media .image-button img{
+ width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 20px rgba(32,90,155,.11));
+}
+.slide-6 .guangdong-media .zoom-affordance{right:14px;bottom:12px}
+.ambient-theme:has(.slide-6.present) .footer-current{font-size:18px;font-weight:600}
+.ambient-theme:has(.slide-6.present) .footer-kicker{font-size:12px}
+.ambient-theme:has(.slide-6.present) .vertical-navigation button span{font-size:14px}

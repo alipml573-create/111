@@ -1,0 +1,26 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import 'reveal.js/reveal.css';
+import './styles.css';
+import './polish.css';
+import './cover.css';
+import './ambient.css';
+import './academic.css';
+import './interview.css';
+import './shangmei.css';
+import './netjoy.css';
+import './guangdong.css';
+import './ip.css';
+import './portfolio.css';
+import './competition.css';
+import './values.css';
+import './honors.css';
+import './campus.css';
+import './court.css';
+import './innovation.css';
+import './ending.css';
+import './brand-logos.css';
+import './entrance-motion.css';
+
+createRoot(document.getElementById('root')!).render(<App />);

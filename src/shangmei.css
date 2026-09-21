@@ -1,0 +1,69 @@
+/* Page 04 only — a beauty-tech campus scene with a real product runway.
+   Desktop/projection canvas; preserves all user copy and source product media. */
+.slide-4 .slide-content{top:66px;overflow:visible}
+.slide-4 .slide-meta{font-size:20px;letter-spacing:.06em;color:#153f79}
+.slide-4 .shangmei-scene{position:absolute;inset:-66px -95px -30px -70px;pointer-events:none;overflow:hidden;z-index:0}
+.slide-4 .shangmei-leaf-frame{
+ position:absolute;inset:-18px 0 auto;width:100%;height:auto;opacity:.34;mix-blend-mode:multiply;
+ -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 2.5%,#000 97.5%,transparent 100%);
+ mask-image:linear-gradient(90deg,transparent 0,#000 2.5%,#000 97.5%,transparent 100%);
+}
+.slide-4 .shangmei-header,
+.slide-4 .shangmei-layout,
+.slide-4 .shangmei-product-stage{position:relative;z-index:1}
+
+.slide-4 .shangmei-header{display:grid;grid-template-columns:minmax(0,720px) 560px;gap:32px;height:132px;align-items:center}
+.slide-4 .shangmei-header .section-heading{margin:0;align-self:center}
+.slide-4 .section-heading .eyebrow{font-size:20px;line-height:1.15;letter-spacing:.09em;margin-bottom:8px;color:#164f97}
+.reveal .slides .slide-4 .section-heading h2{font-family:var(--serif);font-size:58px;line-height:1.08;font-weight:700;letter-spacing:.015em;color:#0c386f;text-shadow:0 1px 0 #fff9}
+.reveal .slides .slide-4 .section-subtitle{font-size:24px;line-height:1.32;margin-top:8px;color:#174f90;font-weight:520}
+.slide-4 .shangmei-wordmark{display:block;width:540px;max-height:108px;object-fit:contain;object-position:center;filter:drop-shadow(0 3px 8px #fff9)}
+
+.slide-4 .shangmei-layout{display:grid;grid-template-columns:720px 420px;gap:16px;width:1156px;height:462px;margin-top:8px;margin-left:0}
+.slide-4 .shangmei-responsibilities{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:10px;height:100%;min-height:0}
+.slide-4 .shangmei-glass{
+ min-width:0;min-height:0;border:1px solid #ffffffef;border-radius:18px;
+ background:linear-gradient(135deg,#f9fcfff0 0%,#edf7ffd9 68%,#ffffffc9 100%);color:#123f7c;
+ backdrop-filter:blur(16px) saturate(118%);-webkit-backdrop-filter:blur(16px) saturate(118%);
+ box-shadow:0 12px 34px #174f8b13,inset 0 1px 0 #fff,inset 0 -1px 0 #83b8ef1f;
+}
+.slide-4 .shangmei-duty{display:grid;grid-template-columns:58px minmax(0,1fr);gap:16px;align-items:center;padding:8px 20px;overflow:hidden}
+.slide-4 .shangmei-duty-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:50%;color:#356fca;background:linear-gradient(145deg,#edf6ff,#d7e9ff);box-shadow:inset 0 1px 0 #fff,0 5px 14px #356fca18}
+.slide-4 .shangmei-duty-icon svg{width:29px;height:29px;stroke-width:2.2}
+.reveal .slides .slide-4 .shangmei-duty h3,
+.reveal .slides .slide-4 .shangmei-achievements h3{font-family:var(--sans);font-size:28px;line-height:1.14;font-weight:760;color:#0d3d7c;letter-spacing:.01em}
+.reveal .slides .slide-4 .shangmei-copy{font-family:var(--sans);font-size:24px;line-height:1.27;font-weight:480;color:#1e4f87;white-space:normal;text-wrap:pretty;margin-top:4px}
+.slide-4 .shangmei-copy strong{color:#0a3772;font-weight:760}
+
+.slide-4 .shangmei-achievements{display:flex;flex-direction:column;height:100%;min-height:0;padding:20px 26px 22px;overflow:hidden}
+.reveal .slides .slide-4 .shangmei-achievements h3{display:flex;align-items:center;gap:12px;font-size:30px}
+.slide-4 .shangmei-achievements h3 svg{width:30px;height:30px;color:#3a71c5;stroke-width:2.4}
+.slide-4 .shangmei-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:22px;padding-bottom:20px;border-bottom:1px solid #2d63a52d}
+.slide-4 .shangmei-results .big-stat{padding:0 16px 0 0}
+.slide-4 .shangmei-results .big-stat+.big-stat{padding-left:22px;border-left:1px solid #2d63a52d}
+.slide-4 .shangmei-results .stat-value{font-size:54px;line-height:1;color:#0e4da0;font-weight:760;white-space:nowrap;letter-spacing:-.025em}
+.slide-4 .shangmei-results .big-stat:last-child .stat-value{font-size:48px;letter-spacing:0}
+.slide-4 .shangmei-results .stat-suffix{font-size:29px;margin-left:1px}
+.slide-4 .shangmei-results .stat-label{font-size:24px;line-height:1.23;margin-top:11px;color:#214e82;font-weight:560}
+.reveal .slides .slide-4 .shangmei-achievements>.shangmei-copy{margin-top:18px;font-size:24px;line-height:1.34;color:#16447c}
+.slide-4 .shangmei-achievements .shangmei-copy strong{font-weight:760;color:#c51f3a}
+
+.slide-4 .shangmei-product-stage{height:150px;margin-top:7px;width:1285px;margin-left:0}
+.slide-4 .shangmei-mascot{position:absolute;left:-70px;bottom:-74px;width:330px;height:auto;z-index:3;filter:drop-shadow(0 14px 14px #1d52852c)}
+.slide-4 .shangmei-acrylic{position:absolute;left:286px;right:auto;bottom:-215px;width:960px;height:auto;z-index:0;opacity:.9;filter:drop-shadow(0 15px 20px #1f65a123)}
+.slide-4 .shangmei-product-label{position:absolute;left:252px;top:18px;width:180px;height:78px;display:grid;grid-template-columns:1fr 34px;align-items:center;padding:0 14px 0 20px;z-index:4;border-radius:22px}
+.reveal .slides .slide-4 .shangmei-product-label h3{font-size:23px;line-height:1.35;font-weight:720;color:#17467e}
+.slide-4 .shangmei-product-label svg{width:28px;height:28px;color:#2d69bc}
+.slide-4 .shangmei-product-row{position:absolute;left:438px;top:-12px;width:780px;height:175px;display:grid;grid-template-columns:1.04fr .82fr .95fr 1.22fr .82fr .82fr;gap:8px;align-items:end;z-index:3}
+.slide-4 .shangmei-product-row .image-frame{width:100%;height:175px;background:transparent;border:0;overflow:visible;margin:0}
+.slide-4 .shangmei-product-row .image-button{display:flex;align-items:flex-end;justify-content:center;background:transparent;border:0;padding:0;overflow:visible}
+.slide-4 .shangmei-product-row img{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 12px 10px #1539682e);transition:transform .22s ease,filter .22s ease}
+.slide-4 .shangmei-product-row .image-button:hover img,
+.slide-4 .shangmei-product-row .image-button:focus-visible img{transform:translateY(-5px);filter:drop-shadow(0 17px 13px #15396838)}
+.slide-4 .shangmei-product-row .zoom-affordance{display:none}
+.ambient-theme:has(.slide-4.present) .ambient-overlay{background:linear-gradient(90deg,#f8fcff0d 0%,#ffffff05 63%,#e8f6ff14 100%)}
+.ambient-theme:has(.slide-4.present) .footer-current{font-size:18px}
+.ambient-theme:has(.slide-4.present) .footer-kicker{font-size:12px}
+.ambient-theme:has(.slide-4.present) .vertical-navigation button span{font-size:14px}
+
+@media (prefers-reduced-motion:reduce){.slide-4 .shangmei-product-row img{transition:none}}

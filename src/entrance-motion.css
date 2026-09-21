@@ -1,0 +1,445 @@
+/*
+ * Slide entrance direction: a restrained documentary edit.
+ *
+ * Reveal adds `.present` only to the active section, so these animations replay
+ * on every page turn (including when navigating backwards) without JavaScript.
+ * No transform or z-index is animated: edited coordinates, Reveal transforms,
+ * glass backdrops and the supplied artwork stack therefore remain untouched.
+ */
+
+.reveal{
+  --entrance-ease:cubic-bezier(.22,.72,.24,1);
+  --entrance-quiet-ease:cubic-bezier(.25,.62,.28,1);
+}
+
+@keyframes deck-entrance-fade{
+  from{opacity:0}
+}
+
+@keyframes deck-entrance-title-wipe{
+  0%{opacity:0;clip-path:inset(0 100% 0 0)}
+  100%{opacity:1;clip-path:inset(0)}
+}
+
+@keyframes deck-entrance-caption-wipe{
+  0%{opacity:0;clip-path:inset(100% 0 0 0)}
+  100%{opacity:1;clip-path:inset(0)}
+}
+
+@media (prefers-reduced-motion:no-preference){
+  /* Persistent presentation chrome arrives first and as one stable unit. */
+  .reveal:not(.overview) .slides>section.present .slide-meta{
+    animation:deck-entrance-fade .42s var(--entrance-quiet-ease) .03s backwards;
+  }
+
+  /* Shared page heading: label, thesis, then supporting sentence. */
+  .reveal:not(.overview) .slides>section.present .section-heading .eyebrow{
+    animation:deck-entrance-title-wipe .48s var(--entrance-ease) .10s backwards;
+  }
+  .reveal:not(.overview) .slides>section.present .section-heading h2{
+    animation:deck-entrance-title-wipe .68s var(--entrance-ease) .17s backwards;
+  }
+  .reveal:not(.overview) .slides>section.present .section-heading .section-subtitle{
+    animation:deck-entrance-caption-wipe .52s var(--entrance-ease) .29s backwards;
+  }
+
+  /* 01 / Cover — establish the campus, protagonist and filmmaking kit in cuts. */
+  .reveal:not(.overview) .slides>.slide-1.present :is(.cover-media,.cover-laptop,.cover-sign){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .07s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-copy>.eyebrow{
+    animation:deck-entrance-title-wipe .50s var(--entrance-ease) .12s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-copy>h1{
+    animation:deck-entrance-title-wipe .78s var(--entrance-ease) .20s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-subtitle{
+    animation:deck-entrance-caption-wipe .50s var(--entrance-ease) .34s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-boy{
+    animation:deck-entrance-fade .78s var(--entrance-quiet-ease) .27s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-person{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .43s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present :is(.cover-film,.cover-cinema){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .46s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present .cover-thesis{
+    animation:deck-entrance-caption-wipe .58s var(--entrance-ease) .57s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present :is(.cover-coffee,.cover-notebook,.cover-robot){
+    animation:deck-entrance-fade .60s var(--entrance-quiet-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present :is(.cover-future-note,.cover-flight-note){
+    animation:deck-entrance-fade .55s var(--entrance-quiet-ease) .64s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-1.present :is(.cover-foliage,.cover-bottom){
+    animation:deck-entrance-fade .64s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 02 / Academic foundation — identity, results and courses read left to right. */
+  .reveal:not(.overview) .slides>.slide-2.present :is(.academic-sign,.academic-script){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .08s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-2.present .academic-tagline{
+    animation:deck-entrance-caption-wipe .50s var(--entrance-ease) .28s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-2.present .profile-column{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .34s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-2.present .academic-metrics{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .45s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-2.present .courses-column{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .56s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-2.present :is(.academic-books,.academic-camera,.academic-pillar){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .64s backwards;
+  }
+
+  /* 03 / Interview — invitation identity precedes the email and role detail. */
+  .reveal:not(.overview) .slides>.slide-3.present .interview-canopy{
+    animation:deck-entrance-fade .70s var(--entrance-quiet-ease) .05s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-3.present .interview-invitation-art{
+    animation:deck-entrance-fade .60s var(--entrance-quiet-ease) .25s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-3.present .interview-brand-art{
+    animation:deck-entrance-fade .55s var(--entrance-quiet-ease) .32s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-3.present .interview-evidence{
+    animation:deck-entrance-fade .60s var(--entrance-ease) .38s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-3.present .interview-role{
+    animation:deck-entrance-fade .60s var(--entrance-ease) .50s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-3.present :is(.interview-books,.interview-laptop,.interview-pillar){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .64s backwards;
+  }
+
+  /* 04 / Brand practice — responsibilities build toward results and products. */
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-wordmark{
+    animation:deck-entrance-fade .54s var(--entrance-quiet-ease) .25s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-duty:nth-child(1){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .33s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-duty:nth-child(2){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .43s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-duty:nth-child(3){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .53s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-achievements{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-product-stage{
+    animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .64s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-4.present .shangmei-leaf-frame{
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 05 / AIGC production — duties resolve into evidence and the workflow rail. */
+  .reveal:not(.overview) .slides>.slide-5.present :is(.netjoy-film-ribbons,.netjoy-checklist-art){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .07s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-producer{
+    animation:deck-entrance-fade .70s var(--entrance-quiet-ease) .23s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-identity{
+    animation:deck-entrance-fade .55s var(--entrance-ease) .28s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-duty:nth-child(1){
+    animation:deck-entrance-fade .52s var(--entrance-ease) .34s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-duty:nth-child(2){
+    animation:deck-entrance-fade .52s var(--entrance-ease) .44s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-duty:nth-child(3){
+    animation:deck-entrance-fade .52s var(--entrance-ease) .54s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-work{
+    animation:deck-entrance-fade .60s var(--entrance-ease) .63s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present .netjoy-process{
+    animation:deck-entrance-caption-wipe .58s var(--entrance-ease) .64s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-5.present :is(.netjoy-camera-art,.netjoy-desk-books,.netjoy-desk-notes){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 06 / Content operations — three responsibilities, then their evidence. */
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-handwriting{
+    animation:deck-entrance-fade .52s var(--entrance-quiet-ease) .24s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-keywords{
+    animation:deck-entrance-caption-wipe .54s var(--entrance-ease) .30s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-card:nth-child(1){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .36s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-card:nth-child(2){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .47s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-card:nth-child(3){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .58s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-6.present .guangdong-evidence{
+    animation:deck-entrance-fade .64s var(--entrance-ease) .63s backwards;
+  }
+
+  /* 07 / IP exhibition — the stage settles before the two complete dossiers. */
+  .reveal:not(.overview) .slides>.slide-7.present :is(.ip-planet,.ip-orbit){
+    animation:deck-entrance-fade .76s var(--entrance-quiet-ease) .07s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-7.present :is(.ip-stage,.ip-plinth){
+    animation:deck-entrance-fade .70s var(--entrance-quiet-ease) .20s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-7.present .ip-handwriting{
+    animation:deck-entrance-fade .50s var(--entrance-quiet-ease) .27s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-7.present .horse-dossier{
+    animation:deck-entrance-fade .62s var(--entrance-ease) .36s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-7.present .lab-dossier{
+    animation:deck-entrance-fade .62s var(--entrance-ease) .50s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-7.present .ip-statement{
+    animation:deck-entrance-caption-wipe .55s var(--entrance-ease) .64s backwards;
+  }
+
+  /* 08 / Portfolio — one exhibition reveal, then the complete index board. */
+  .reveal:not(.overview) .slides>.slide-8.present :is(.portfolio-film-ribbon,.portfolio-acrylic-stage){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .06s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-8.present :is(.portfolio-ideas-plinth,.portfolio-slogan){
+    animation:deck-entrance-fade .60s var(--entrance-quiet-ease) .21s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-8.present .portfolio-summary{
+    animation:deck-entrance-fade .50s var(--entrance-ease) .27s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-8.present .portfolio-exhibition{
+    animation:deck-entrance-fade .64s var(--entrance-ease) .36s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-8.present .portfolio-preview-panel{
+    animation:deck-entrance-caption-wipe .62s var(--entrance-ease) .56s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-8.present .portfolio-foliage{
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 09 / Competition evidence — each event remains a single coherent proof set. */
+  .reveal:not(.overview) .slides>.slide-9.present :is(.competition-marble-stage,.competition-golden-light){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .06s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-9.present :is(.competition-right-plinth,.competition-slogan){
+    animation:deck-entrance-fade .62s var(--entrance-quiet-ease) .20s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-9.present .competition-level{
+    animation:deck-entrance-fade .50s var(--entrance-ease) .28s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-9.present .competition-card:nth-child(1){
+    animation:deck-entrance-fade .62s var(--entrance-ease) .36s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-9.present .competition-card:nth-child(2){
+    animation:deck-entrance-fade .62s var(--entrance-ease) .52s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-9.present .competition-foliage{
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 10 / Values — certificates enter in reading order, not as a busy wall. */
+  .reveal:not(.overview) .slides>.slide-10.present :is(.values-gold-vignette,.values-gold-ribbon){
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .06s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-intro{
+    animation:deck-entrance-fade .55s var(--entrance-ease) .28s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-wall>article:nth-child(1){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .36s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-wall>article:nth-child(2){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .45s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-wall>article:nth-child(3){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .54s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-wall>article:nth-child(4){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .63s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-wall>article:nth-child(5){
+    animation:deck-entrance-fade .54s var(--entrance-ease) .65s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .values-foliage{
+    animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .65s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-10.present .page-statement{
+    animation:deck-entrance-caption-wipe .50s var(--entrance-ease) .65s backwards;
+  }
+
+  /* 11 / Honors — featured certificate first, full written record second. */
+  .reveal:not(.overview) .slides>.slide-11.present .honors-gold-ribbon{
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .07s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-11.present .certificate-focus{
+    animation:deck-entrance-fade .62s var(--entrance-ease) .32s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-11.present .honor-narrative{
+    animation:deck-entrance-fade .64s var(--entrance-ease) .49s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-11.present :is(.honors-foliage,.honors-script){
+    animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 12 / Campus work — responsibilities remain grouped by their two rows. */
+  .reveal:not(.overview) .slides>.slide-12.present .campus-scene-ribbon{
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .06s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-12.present .campus-work-row-top{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .32s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-12.present .campus-work-row-bottom{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .47s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-12.present .campus-proof-strip{
+    animation:deck-entrance-caption-wipe .62s var(--entrance-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-12.present :is(.campus-scene-left,.campus-scene-right){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 13 / Court collaboration — the four source records follow their stated order. */
+  .reveal:not(.overview) .slides>.slide-13.present .court-proof:nth-child(1){
+    animation:deck-entrance-fade .56s var(--entrance-ease) .31s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-13.present .court-proof:nth-child(2){
+    animation:deck-entrance-fade .56s var(--entrance-ease) .40s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-13.present .court-proof:nth-child(3){
+    animation:deck-entrance-fade .56s var(--entrance-ease) .49s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-13.present .court-proof:nth-child(4){
+    animation:deck-entrance-fade .56s var(--entrance-ease) .58s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-13.present .court-summary{
+    animation:deck-entrance-caption-wipe .60s var(--entrance-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-13.present :is(.court-camera-books,.court-film-ribbon,.court-script){
+    animation:deck-entrance-fade .68s var(--entrance-quiet-ease) .65s backwards;
+  }
+
+  /* 14 / Innovation — panels arrive, then their editable evidence and conclusions. */
+  .reveal:not(.overview) .slides>.slide-14.present .innovation-floor{
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .05s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-film{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .33s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-ai{
+    animation:deck-entrance-fade .58s var(--entrance-ease) .46s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-film .venture-cover{
+    animation:deck-entrance-fade .50s var(--entrance-ease) .43s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-ai .venture-cover{
+    animation:deck-entrance-fade .50s var(--entrance-ease) .56s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-film :is(.venture-copy,.venture-art){
+    animation:deck-entrance-fade .52s var(--entrance-ease) .54s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-ai :is(.venture-copy,.venture-art){
+    animation:deck-entrance-fade .52s var(--entrance-ease) .60s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-film .venture-foot{
+    animation:deck-entrance-caption-wipe .48s var(--entrance-ease) .65s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .venture-ai .venture-foot{
+    animation:deck-entrance-caption-wipe .48s var(--entrance-ease) .64s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .innovation-script{
+    animation:deck-entrance-fade .56s var(--entrance-quiet-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-14.present .innovation-thesis{
+    animation:deck-entrance-caption-wipe .54s var(--entrance-ease) .65s backwards;
+  }
+
+  /* 15 / Ending — title, handoff actors and memory foreground preserve their stack. */
+  .reveal:not(.overview) .slides>.slide-15.present .ending-trail{
+    animation:deck-entrance-fade .78s var(--entrance-quiet-ease) .04s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-growth-path{
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .14s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-copy>.eyebrow{
+    animation:deck-entrance-title-wipe .50s var(--entrance-ease) .13s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-copy>h2{
+    animation:deck-entrance-title-wipe .78s var(--entrance-ease) .21s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-subtitle{
+    animation:deck-entrance-caption-wipe .55s var(--entrance-ease) .35s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-lead{
+    animation:deck-entrance-fade .78s var(--entrance-quiet-ease) .43s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-students{
+    animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .55s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-handoff-plane{
+    animation:deck-entrance-fade .62s var(--entrance-quiet-ease) .62s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-academy-stone{
+    animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .60s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-memory-film{
+    animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .63s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-script{
+    animation:deck-entrance-fade .58s var(--entrance-quiet-ease) .65s backwards;
+  }
+  .reveal:not(.overview) .slides>.slide-15.present .ending-credit{
+    animation:deck-entrance-fade .46s var(--entrance-quiet-ease) .65s backwards;
+  }
+}
+
+/* Editing and overview should always be a stable, fully visible canvas. */
+body.editing-mode .reveal .slides>section.present .slide-meta,
+body.editing-mode .reveal .slides>section.present .slide-content,
+body.editing-mode .reveal .slides>section.present .slide-content *,
+.reveal.overview .slides>section .slide-meta,
+.reveal.overview .slides>section .slide-content,
+.reveal.overview .slides>section .slide-content *{
+  animation:none!important;
+}
+body.editing-mode .reveal .slides>section.present :is(.slide-meta,.slide-content),
+.reveal.overview .slides>section :is(.slide-meta,.slide-content){
+  visibility:visible!important;
+}
+
+/* Motion-sensitive users see the exact final composition immediately. */
+@media (prefers-reduced-motion:reduce){
+  .reveal .slides>section .slide-meta,
+  .reveal .slides>section .slide-content,
+  .reveal .slides>section .slide-content *{
+    animation:none!important;
+    transition-duration:.001ms!important;
+    transition-delay:0ms!important;
+  }
+  .reveal .slides>section :is(.slide-meta,.slide-content){
+    visibility:visible!important;
+  }
+}
+
+/* The scrolling reader and printed pages must not wait on presentation timing. */
+@media (max-width:760px), print{
+  .reveal .slides>section .slide-meta,
+  .reveal .slides>section .slide-content,
+  .reveal .slides>section .slide-content *{
+    animation:none!important;
+  }
+  .reveal .slides>section :is(.slide-meta,.slide-content){
+    visibility:visible!important;
+  }
+}

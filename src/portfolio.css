@@ -1,0 +1,142 @@
+/* Page 08 only — an acrylic screening stage for 18 original works. */
+.slide-8 .slide-content{top:72px;left:70px;right:118px;bottom:70px;overflow:visible}
+.slide-8 .slide-meta{font-size:20px;letter-spacing:.06em;color:#163f78}
+.slide-8 .portfolio-showcase{
+ display:block;position:relative;height:748px;padding:0;overflow:visible;scroll-snap-type:none;outline:none;
+}
+.slide-8 .portfolio-scene{
+ position:absolute;inset:-72px -118px -70px -70px;z-index:0;pointer-events:none;overflow:hidden;
+}
+.slide-8 .portfolio-scene img{position:absolute;max-width:none}
+.slide-8 .portfolio-film-ribbon{left:-34px;top:70px;width:332px;height:680px;object-fit:contain;opacity:.86}
+.slide-8 .portfolio-acrylic-stage{left:0;right:0;bottom:-28px;width:100%;height:480px;object-fit:fill;opacity:.72}
+.slide-8 .portfolio-foliage{
+ inset:0;width:100%;height:100%;object-fit:fill;opacity:.94;
+ -webkit-mask-image:linear-gradient(to bottom,transparent 0,transparent 80px,#000 142px,#000 100%);
+ mask-image:linear-gradient(to bottom,transparent 0,transparent 80px,#000 142px,#000 100%);
+}
+.slide-8 .portfolio-ideas-plinth{right:-24px;bottom:22px;width:176px;height:auto;opacity:.92}
+.slide-8 .portfolio-slogan{
+ position:absolute;display:block;background-image:url('/assets/portfolio-campus-v2/handwritten-slogans.webp');
+ background-repeat:no-repeat;filter:drop-shadow(0 2px 4px rgba(41,112,205,.12));opacity:.76;
+}
+.slide-8 .portfolio-slogan-cn{left:20px;top:352px;width:230px;height:250px;background-size:320px 320px;background-position:left top}
+.slide-8 .portfolio-slogan-en{left:980px;top:88px;width:280px;height:145px;background-size:350px 350px;background-position:right bottom}
+.slide-8 .portfolio-heading,.slide-8 .portfolio-exhibition,.slide-8 .portfolio-preview-panel{position:relative;z-index:1}
+.slide-8 .portfolio-heading{
+ display:grid;grid-template-columns:minmax(0,1fr) 338px;gap:32px;align-items:center;height:122px;padding-left:74px;
+}
+.slide-8 .portfolio-heading .section-heading{margin:0}
+.slide-8 .section-heading .eyebrow{font-size:18px;line-height:1.2;letter-spacing:.08em;margin-bottom:8px;color:#17539e}
+.reveal .slides .slide-8 .section-heading h2{
+ font-family:var(--serif);font-size:58px;line-height:1.12;font-weight:700;letter-spacing:.02em;color:#0c386f;text-shadow:0 1px 0 #fff9;
+}
+.slide-8 .portfolio-summary{display:flex;align-items:center;justify-content:flex-end;gap:17px;color:#244f83;padding-right:18px}
+.slide-8 .portfolio-summary strong,.slide-8 .portfolio-summary>h3{font-family:var(--number);font-size:68px;font-weight:650;line-height:.95;color:#0b3e80;letter-spacing:-.04em;margin:0}
+.slide-8 .portfolio-summary span{font-size:24px;line-height:1.35;white-space:nowrap;font-weight:600}
+.slide-8 .portfolio-glass{
+ border:1px solid rgba(255,255,255,.88);border-radius:20px;
+ background:linear-gradient(145deg,rgba(250,253,255,.88),rgba(225,241,255,.73));
+ backdrop-filter:blur(17px) saturate(1.1);-webkit-backdrop-filter:blur(17px) saturate(1.1);
+ box-shadow:0 15px 42px rgba(22,83,154,.13),inset 0 1px 0 rgba(255,255,255,.94),inset 0 0 28px rgba(104,179,255,.11);
+}
+.slide-8 .portfolio-exhibition{
+ display:grid;grid-template-columns:minmax(0,1fr) 358px;gap:18px;height:454px;margin-top:6px;padding:14px 16px 14px 18px;min-width:0;min-height:0;
+}
+.slide-8 .portfolio-screen{
+ position:relative;min-width:0;min-height:0;overflow:hidden;border:0;border-radius:17px;isolation:isolate;
+ background:transparent url('/assets/portfolio-campus-v2/landscape-frame.webp') center/100% 100% no-repeat;
+}
+.slide-8 .portfolio-image-atmosphere,.slide-8 .portfolio-screen-wash{display:none}
+.slide-8 .portfolio-main-image{position:absolute;inset:24px 30px;min-width:0;min-height:0}
+.slide-8 .portfolio-original.image-frame{width:100%;height:100%;padding:0;border:0;background:transparent;border-radius:10px;overflow:hidden}
+.slide-8 .portfolio-original .image-button{width:100%;height:100%;background:transparent}
+.slide-8 .portfolio-original img{
+ width:100%;height:100%;object-fit:contain;max-width:100%;max-height:100%;border-radius:8px;
+ box-shadow:0 8px 24px rgba(10,54,112,.13);transform:none;transition:none;
+}
+.slide-8 .portfolio-original .image-button:hover img{transform:none}
+.slide-8 .portfolio-original .zoom-affordance{right:10px;bottom:10px}
+.slide-8 .portfolio-details{
+ min-width:0;min-height:0;display:flex;flex-direction:column;justify-content:center;align-items:center;
+ gap:42px;padding:26px 22px;text-align:center;
+}
+.slide-8 .portfolio-work-heading{width:100%;display:flex;flex-direction:column;align-items:center}
+.slide-8 .portfolio-work-index{display:flex;align-items:baseline;justify-content:center;gap:10px;width:100%;font-family:var(--number);color:#42658d;line-height:1.2}
+.slide-8 .portfolio-work-index strong,.slide-8 .portfolio-work-index>h3{font-size:43px;font-weight:650;color:#103f7a;letter-spacing:-.035em;margin:0}
+.slide-8 .portfolio-work-index>span{font-size:24px}
+.slide-8 .portfolio-work-index .portfolio-category{font-family:var(--sans);font-size:25px;margin-left:16px;font-weight:700;color:#205a9f}
+.reveal .slides .slide-8 .portfolio-format-label{font-family:var(--sans);font-size:24px;line-height:1.35;color:#355d8a;margin:14px 0 0;font-weight:550}
+.reveal .slides .slide-8 .portfolio-work-title{
+ font-family:var(--serif);font-size:44px;font-weight:700;line-height:1.22;color:#0e3b76;
+ white-space:normal;text-wrap:balance;overflow-wrap:anywhere;margin:22px auto 0;
+}
+.reveal .slides .slide-8 .portfolio-event-note{font-family:var(--sans);font-size:24px;line-height:1.45;font-weight:650;color:#2a67ad;margin:16px 0 0}
+.slide-8 .portfolio-navigation{display:flex;justify-content:center;align-items:center;margin:0}
+.slide-8 .portfolio-play-minimal{
+ width:46px;height:46px;display:flex;align-items:center;justify-content:center;flex:none;padding:0;
+ border:1px solid rgba(46,101,166,.28);border-radius:50%;color:#104582;background:rgba(248,252,255,.76);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 7px 18px rgba(21,73,135,.1);transition:background .15s,border-color .15s,transform .15s;
+}
+.slide-8 .portfolio-play-minimal:hover{background:rgba(255,255,255,.94);border-color:#3e79bf;transform:translateY(-2px)}
+.slide-8 .portfolio-preview-panel{
+ height:150px;margin-top:10px;padding:17px 28px 16px;border:0;
+ background:transparent url('/assets/portfolio-campus-v2/index-backplate.webp') center/100% 100% no-repeat;
+ box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;
+}
+.slide-8 .portfolio-preview-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;height:30px;margin-bottom:8px;color:#294f7d}
+.slide-8 .portfolio-preview-heading>span{font-size:24px;font-weight:700;color:#123f7b}
+.reveal .slides .slide-8 .portfolio-preview-heading p{font-family:var(--sans);font-size:24px;line-height:1.2;color:#355d8a;margin:0}
+.slide-8 .portfolio-preview-groups{display:grid;grid-template-columns:1.8fr 1fr;gap:22px;height:77px;align-items:center}
+.slide-8 .portfolio-preview-group{display:grid;grid-template-columns:76px minmax(0,1fr);gap:11px;height:77px;min-width:0;align-items:center}
+.slide-8 .portfolio-group-label{display:flex;flex-direction:column;gap:1px;border-right:1px solid rgba(33,86,148,.24);color:#315a88}
+.slide-8 .portfolio-group-label strong,.slide-8 .portfolio-group-label>h3{font-size:24px;font-weight:700;line-height:1.2;color:#123f7b;margin:0}
+.slide-8 .portfolio-group-label span{font-size:22px;line-height:1.2}
+.slide-8 .portfolio-previews{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;height:70px;align-items:center}
+.slide-8 .portfolio-preview{
+ position:relative;min-width:0;height:70px;overflow:hidden;border-radius:6px;border:2px solid rgba(255,255,255,.86);
+ background:rgba(214,234,253,.72);box-shadow:0 4px 12px rgba(20,70,133,.1);transition:transform .15s,border-color .15s;isolation:isolate;
+}
+.slide-8 .group-landscape .portfolio-preview{height:auto;width:100%;aspect-ratio:var(--preview-ratio)}
+.slide-8 .group-portrait .portfolio-previews{display:flex;justify-content:space-between;gap:6px}
+.slide-8 .group-portrait .portfolio-preview{height:70px;width:auto;aspect-ratio:var(--preview-ratio);flex:none}
+.slide-8 .portfolio-preview img{width:100%;height:100%;object-fit:cover;max-width:100%;max-height:100%}
+.slide-8 .portfolio-preview>span{
+ position:absolute;bottom:2px;left:3px;padding:1px 4px;border-radius:3px;background:rgba(13,57,112,.9);color:#f8fcff;
+ font-family:var(--number);font-size:17px;line-height:1.1;font-weight:600;
+}
+.slide-8 .portfolio-preview.is-selected{border-color:#2868bd;box-shadow:0 0 0 3px rgba(48,112,195,.16),0 5px 14px rgba(17,67,128,.16)}
+.slide-8 .portfolio-preview:hover{transform:translateY(-3px);border-color:#2868bd}
+.slide-8 .portfolio-exhibition.is-landscape .portfolio-details{padding:26px 22px}
+.slide-8 .portfolio-exhibition.is-landscape .portfolio-work-title{font-size:44px;margin-top:22px;line-height:1.32}
+.slide-8 .portfolio-exhibition.is-landscape .portfolio-event-note{margin-top:16px}
+/* Portrait works use a true portrait stage with two portrait neighbors—no blurred side filler. */
+.slide-8 .portfolio-exhibition.is-portrait{grid-template-columns:760px minmax(0,1fr);gap:22px;padding:12px 16px}
+.slide-8 .is-portrait .portfolio-screen{
+ display:grid;grid-template-columns:164px max-content 164px;align-items:center;justify-content:center;gap:17px;height:430px;
+ overflow:visible;background:transparent;border:0;border-radius:0;isolation:auto;
+}
+.slide-8 .is-portrait .portfolio-main-image{
+ position:relative;inset:auto;height:430px;width:calc(430px * var(--portfolio-ratio));padding:15px;
+ background:transparent url('/assets/portfolio-campus-v2/portrait-frame.webp') center/100% 100% no-repeat;
+ border-radius:18px;box-shadow:none;overflow:hidden;
+}
+.slide-8 .is-portrait .portfolio-original{border-radius:10px;padding:0}
+.slide-8 .is-portrait .portfolio-original .zoom-affordance{background:rgba(248,252,255,.88)}
+.slide-8 .portfolio-neighbor{
+ display:flex;flex-direction:column;gap:8px;align-items:stretch;justify-content:center;min-width:0;width:164px;padding:10px;
+ color:#294f7d;background:transparent url('/assets/portfolio-campus-v2/portrait-frame.webp') center/100% 100% no-repeat;
+ transition:transform .15s;
+}
+.slide-8 .portfolio-neighbor img{display:block;width:100%;height:auto;max-width:100%;max-height:304px;object-fit:contain;border-radius:8px;box-shadow:0 7px 18px rgba(21,73,135,.12)}
+.slide-8 .portfolio-neighbor span{font-family:var(--sans);font-size:20px;line-height:1.25;white-space:nowrap;text-align:center;font-weight:600}
+.slide-8 .portfolio-neighbor:hover{transform:translateY(-4px)}
+.slide-8 .is-portrait .portfolio-details{padding:24px 26px;gap:34px}
+.reveal .slides .slide-8 .is-portrait .portfolio-work-title{font-size:50px;line-height:1.22;margin-top:13px}
+.slide-8 .is-portrait .portfolio-work-index strong,.slide-8 .is-portrait .portfolio-work-index>h3{font-size:43px}
+.slide-8 .is-portrait .portfolio-navigation{margin-top:0}
+.slide-8 .portfolio-showcase:focus-visible,.slide-8 .portfolio-showcase button:focus-visible,.slide-8 .portfolio-showcase a:focus-visible{outline:3px solid #2868bd;outline-offset:3px}
+.ambient-theme:has(.slide-8.present) .footer-current{font-size:18px;font-weight:600}
+.ambient-theme:has(.slide-8.present) .footer-kicker{font-size:12px}
+.ambient-theme:has(.slide-8.present) .vertical-navigation button span{font-size:14px}
+@media(prefers-reduced-motion:reduce){.slide-8 .portfolio-showcase *{transition:none!important}}

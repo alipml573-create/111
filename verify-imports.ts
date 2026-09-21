@@ -1,0 +1,23 @@
+// Dependency preparation only. This file creates no deck or website.
+export { Deck, Slide } from '@revealjs/react';
+export { default as Reveal } from 'reveal.js';
+export { motion, AnimatePresence } from 'motion/react';
+export { default as Moveable } from 'react-moveable';
+export { default as Selecto } from 'react-selecto';
+export { Editor, EditorContent } from '@tiptap/react';
+export { default as StarterKit } from '@tiptap/starter-kit';
+export { TextStyleKit } from '@tiptap/extension-text-style';
+export { default as TextAlign } from '@tiptap/extension-text-align';
+export * as Dialog from '@radix-ui/react-dialog';
+export * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+export * as Slider from '@radix-ui/react-slider';
+export * as Tooltip from '@radix-ui/react-tooltip';
+export { ArrowLeft, ArrowRight, Image, Play, Type, Save } from 'lucide-react';
+export { create } from 'zustand';
+export { Dexie } from 'dexie';
+export { default as Aurora } from './vendor/react-bits/src/ts-default/Backgrounds/Aurora/Aurora';
+export { default as BlurText } from './vendor/react-bits/src/ts-default/TextAnimations/BlurText/BlurText';
+export { default as SpotlightCard } from './vendor/react-bits/src/ts-default/Components/SpotlightCard/SpotlightCard';
+export { NumberTicker } from './vendor/magicui/apps/www/registry/magicui/number-ticker';
+export { BlurFade } from './vendor/magicui/apps/www/registry/magicui/blur-fade';
+export { BentoCard, BentoGrid } from './vendor/magicui/apps/www/registry/magicui/bento-grid';

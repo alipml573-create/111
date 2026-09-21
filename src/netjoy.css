@@ -1,0 +1,74 @@
+/* Page 05 only — an AI film-production desk, grounded by original evidence. */
+.slide-5 .slide-content{top:66px;overflow:visible}
+.slide-5 .slide-meta{font-size:20px;letter-spacing:.06em;color:#143f79}
+.slide-5 .netjoy-scene{position:absolute;inset:-66px -95px -40px -70px;height:auto!important;z-index:0;pointer-events:none;overflow:hidden}
+.slide-5 .netjoy-film-ribbons{position:absolute;left:390px;top:34px;width:1010px;height:auto;opacity:.27;filter:drop-shadow(0 8px 16px #175ba821)}
+.slide-5 .netjoy-checklist-art{position:absolute;left:590px;top:78px;width:205px;height:auto;opacity:.58;z-index:1;filter:drop-shadow(0 8px 14px #1a5da320)}
+.slide-5 .netjoy-producer{position:absolute;left:650px;top:4px;width:350px;height:auto;z-index:2;filter:drop-shadow(0 18px 20px #124c8828)}
+.slide-5 .netjoy-camera-art{position:absolute;right:18px;top:178px;width:275px;height:auto;opacity:.34;filter:drop-shadow(0 14px 22px #174a7b1f)}
+.slide-5 .netjoy-desk-books{position:absolute;left:-115px;bottom:-70px;width:480px;height:auto;z-index:2;filter:drop-shadow(0 14px 20px #16477622)}
+.slide-5 .netjoy-desk-notes{position:absolute;right:44px;bottom:-76px;width:430px;height:auto;z-index:2;filter:drop-shadow(0 14px 20px #16477622)}
+.slide-5 .netjoy-header,
+.slide-5 .netjoy-layout,
+.slide-5 .netjoy-process{position:relative;z-index:3}
+
+.slide-5 .netjoy-header{display:grid;grid-template-columns:690px 490px;justify-content:space-between;gap:230px;height:190px;align-items:start}
+.slide-5 .netjoy-heading{position:relative;z-index:3}
+.slide-5 .netjoy-header .section-heading{margin:0}
+.slide-5 .section-heading .eyebrow{font-size:20px;line-height:1.15;letter-spacing:.08em;margin-bottom:8px;color:#2d68af}
+.reveal .slides .slide-5 .section-heading h2{font-family:var(--serif);font-size:58px;line-height:1.08;font-weight:700;letter-spacing:.01em;color:#0b3b78;text-shadow:0 1px 0 #fff9}
+.reveal .slides .slide-5 .section-subtitle{font-size:28px;line-height:1.28;margin-top:8px;color:#174b88;font-weight:520}
+.reveal .slides .slide-5 .netjoy-tagline{font-family:KaiTi,'STKaiti',var(--serif);font-size:23px;line-height:1.2;color:#3679d8;margin-top:8px;margin-left:230px;transform:rotate(-3deg);white-space:nowrap}
+.slide-5 .netjoy-identity{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:2px;height:160px;padding-top:8px}
+.slide-5 .netjoy-logo{width:470px;height:78px;background:transparent;border:0}
+.slide-5 .netjoy-logo .image-button{background:transparent;padding:0}
+.slide-5 .netjoy-logo img{filter:drop-shadow(0 3px 8px #fff9)}
+.reveal .slides .slide-5 .netjoy-identity>p{font-size:24px;line-height:1.25;color:#174a86;font-weight:540}
+.reveal .slides .slide-5 .netjoy-identity>span{font-family:KaiTi,'STKaiti',var(--serif);font-size:21px;line-height:1.2;color:#397bd2;align-self:flex-end;margin-top:6px;margin-right:10px;transform:rotate(-4deg)}
+
+.slide-5 .netjoy-layout{display:grid;grid-template-columns:600px 720px;gap:16px;width:1336px;height:490px;margin-top:8px}
+.slide-5 .netjoy-responsibilities{display:grid;grid-template-rows:1.12fr .92fr 1.14fr;gap:10px;min-height:0;height:100%}
+.slide-5 .netjoy-glass{
+ min-width:0;min-height:0;border:1px solid #ffffffee;border-radius:18px;
+ background:linear-gradient(140deg,#fafdfff0 0%,#edf7ffe1 64%,#ffffffcc 100%);color:#123d77;
+ backdrop-filter:blur(16px) saturate(120%);-webkit-backdrop-filter:blur(16px) saturate(120%);
+ box-shadow:0 13px 34px #154c8112,inset 0 1px 0 #fff,inset 0 -1px 0 #74a9e821;
+}
+.slide-5 .netjoy-duty{position:relative;display:grid;grid-template-columns:60px minmax(0,1fr);gap:16px;align-items:center;padding:4px 20px;overflow:hidden}
+.slide-5 .netjoy-duty-icon{display:grid;place-items:center;width:56px;height:56px;border-radius:17px;color:#fff;background:linear-gradient(145deg,#63b6ff,#4e63eb);box-shadow:0 8px 20px #486fe83f,inset 0 1px 0 #ffffffc7}
+.slide-5 .netjoy-duty-icon svg{width:30px;height:30px;stroke-width:2.2}
+.slide-5 .netjoy-duty-number{position:absolute;right:17px;top:9px;font-family:var(--number);font-size:34px;line-height:1;color:#76a9dd48;font-weight:700;letter-spacing:-.04em}
+.reveal .slides .slide-5 .netjoy-duty h3,
+.reveal .slides .slide-5 .netjoy-achievement h3{font-family:var(--sans);font-size:28px;line-height:1.13;font-weight:760;color:#0d3d7c;letter-spacing:.01em}
+.reveal .slides .slide-5 .netjoy-copy{font-family:var(--sans);font-size:24px;line-height:1.23;font-weight:480;color:#1b4d86;white-space:normal;text-wrap:pretty;margin-top:4px}
+.slide-5 .netjoy-copy strong{color:#0b3974;font-weight:760}
+
+.reveal .slides .slide-5 .netjoy-work{display:grid;grid-template-rows:136px minmax(0,1fr);gap:12px;height:100%;padding:14px 15px 15px;overflow:hidden}
+.slide-5 .netjoy-achievement{min-height:0;padding:0 5px}
+.reveal .slides .slide-5 .netjoy-achievement h3{display:flex;align-items:center;gap:11px;font-size:30px}
+.slide-5 .netjoy-achievement h3 svg{width:30px;height:30px;color:#dfaa24;stroke-width:2.3}
+.reveal .slides .slide-5 .netjoy-achievement .netjoy-copy{font-size:24px;line-height:1.28;margin-top:8px;color:#16467e}
+.slide-5 .netjoy-achievement .netjoy-copy strong{color:#bc2946}
+.slide-5 .netjoy-evidence{display:grid;grid-template-columns:1.03fr 1fr 1fr 1.08fr;gap:10px;min-width:0;min-height:0}
+.slide-5 .netjoy-media{display:grid;grid-template-rows:minmax(0,1fr) 78px;align-items:stretch;padding:8px 8px 5px;border:1px solid #ffffffed;border-radius:15px;background:linear-gradient(150deg,#fffef3f2,#eef7ffe4);box-shadow:0 8px 20px #164c7e0e,inset 0 1px 0 #fff;min-width:0;min-height:0;overflow:hidden}
+.slide-5 .netjoy-media>.image-frame{min-height:0;width:100%;height:100%;background:transparent;border:0;margin:0}
+.slide-5 .netjoy-media .image-button{border-radius:8px;background:#f5f9fce8;padding:0}
+.slide-5 .netjoy-media img{object-position:center}
+.slide-5 .netjoy-media .zoom-affordance{width:28px;height:28px;right:4px;bottom:4px}
+.slide-5 .netjoy-media-caption{display:flex;flex-direction:column;justify-content:center;gap:3px;min-height:0;padding-top:5px}
+.reveal .slides .slide-5 .netjoy-media-caption>h3{font-family:var(--sans);font-size:23px;line-height:1.12;font-weight:650;color:#113f7d;white-space:pre-line;text-align:center}
+.reveal .slides .slide-5 .netjoy-media-caption>p{font-family:var(--number);font-size:31px;line-height:1;font-weight:760;color:#0e4b9b;text-align:center;white-space:nowrap;letter-spacing:-.03em}
+.reveal .slides .slide-5 .netjoy-media-poster .netjoy-media-caption>p{font-family:var(--sans);font-size:21px;font-weight:520;letter-spacing:0;color:#365a83}
+
+.slide-5 .netjoy-process{display:grid;grid-template-columns:190px minmax(0,1fr);align-items:center;width:1210px;height:62px;margin:8px 0 0 130px;padding:6px 18px;border-radius:28px}
+.reveal .slides .slide-5 .netjoy-process>h3{display:flex;align-items:center;gap:11px;font-family:var(--sans);font-size:25px;line-height:1.2;font-weight:760;white-space:nowrap;color:#123f7c}
+.slide-5 .netjoy-process>h3 svg{width:31px;height:31px;color:#2d68b5}
+.slide-5 .netjoy-process ol{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));align-items:center;list-style:none;margin:0;padding:0}
+.slide-5 .netjoy-process li{position:relative;font-family:var(--sans);font-size:23px;line-height:1.2;font-weight:560;color:#174a84;text-align:center;white-space:nowrap}
+.slide-5 .netjoy-process li:not(:last-child)::after{content:'›';position:absolute;right:-6px;top:50%;transform:translateY(-53%);font-family:var(--number);font-size:34px;color:#5c91cd}
+.ambient-theme:has(.slide-5.present) .ambient-overlay{background:linear-gradient(90deg,#f7fbff14,#edf8ff05 54%,#ffffff14)}
+.ambient-theme:has(.slide-5.present) .footer-current{font-size:18px}
+.ambient-theme:has(.slide-5.present) .footer-kicker{font-size:12px}
+.ambient-theme:has(.slide-5.present) .vertical-navigation button span{font-size:14px}
+
+@media (prefers-reduced-motion:reduce){.slide-5 .netjoy-film-ribbons,.slide-5 .netjoy-producer{transition:none}}

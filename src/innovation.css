@@ -1,0 +1,53 @@
+/* Page 14 — two paths from creative practice to product innovation. */
+.slide-14{
+  --innovation-ink:#083f87;
+  --innovation-blue:#2870c8;
+  --innovation-muted:#4272a8;
+  --innovation-glass:rgba(247,252,255,.82);
+  color:var(--innovation-ink);
+}
+.slide-14.scene-innovation{background-position:center;background-size:cover}
+.slide-14 .slide-meta{left:80px;right:92px;color:#1f5a9c;border-color:rgba(66,127,193,.24);z-index:5}
+.slide-14 .slide-content{top:80px;left:64px;right:90px;bottom:62px;overflow:visible}
+.slide-14 .section-heading{position:relative;z-index:3;margin:0 0 22px}
+.slide-14 .section-heading .eyebrow{font-size:13px;color:#185ba9;margin-bottom:9px}
+.slide-14 .section-heading .gold-rule{background:#2874c7}
+.reveal .slides .slide-14 .section-heading h2{font-size:52px;line-height:1.22;color:#073d83;font-weight:600;letter-spacing:.025em}
+.slide-14 .section-subtitle{font-size:17px;line-height:1.4;color:#527dad;margin-top:6px;letter-spacing:.25em}
+
+.innovation-scene{position:absolute;top:-80px;left:-64px;right:-90px;bottom:-62px;z-index:0;pointer-events:none;overflow:hidden}
+.innovation-floor{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.64;z-index:0}
+.innovation-script{position:absolute;right:300px;top:88px;color:#3677c6;font:italic 20px/1.2 "STKaiti","KaiTi",cursive;letter-spacing:.02em;transform:rotate(-7deg);text-align:center;opacity:.72;text-shadow:0 1px #fff}
+
+.slide-14 .innovation-grid{position:relative;z-index:3;display:grid;grid-template-columns:1fr 1fr;gap:22px;height:476px;margin:0;padding:0}
+.slide-14 .venture{position:relative;min-width:0;height:100%;padding:18px 20px 58px;border:1px solid rgba(255,255,255,.96);border-radius:20px;background:var(--innovation-glass);box-shadow:0 20px 48px rgba(39,96,157,.14),inset 0 1px 0 #fff;backdrop-filter:blur(15px) saturate(1.08);overflow:hidden;color:var(--innovation-ink)}
+.slide-14 .venture-kind{position:relative;z-index:4;display:inline-flex;align-items:center;min-height:34px;padding:5px 20px;border:1px solid rgba(83,146,213,.34);border-radius:999px;background:rgba(248,252,255,.88);box-shadow:0 7px 18px rgba(61,120,181,.11),inset 0 1px #fff;font:600 16px/1 var(--sans);color:#2162ad}
+.slide-14 .venture-main{position:absolute;left:20px;right:20px;top:68px;bottom:58px;display:block;margin:0;min-height:0}
+.slide-14 .venture-cover{position:absolute;left:0;top:0;width:257px;height:344px;z-index:3;border:1px solid rgba(65,126,191,.28);border-radius:8px;background:#f8fcff;padding:5px;box-shadow:0 12px 28px rgba(32,83,139,.14)}
+.slide-14 .venture-cover>.image-button{border-radius:5px}
+.slide-14 .venture-copy{position:absolute;left:285px;top:106px;width:245px;z-index:4}
+.slide-14 .venture-copy h3{font:600 42px/1.12 var(--serif);color:#083f87;margin:0}
+.slide-14 .venture-subtitle{font:500 19px/1.35 var(--sans);color:#2d619c;margin:10px 0 0}
+.slide-14 .venture-tags{display:flex;flex-wrap:wrap;gap:7px;margin:25px 0 0;max-width:245px}
+.slide-14 .venture-tags span{font:500 12px/1 var(--sans);color:#2e66a6;margin:0;padding:5px 8px;border:1px solid rgba(65,126,191,.16);border-radius:999px;background:rgba(234,245,255,.72)}
+.slide-14 .venture-description{font:500 18px/1.55 var(--serif);color:#2e6097;margin:30px 0 0;max-width:238px}
+.slide-14 .venture-art{position:absolute;z-index:2;height:auto;pointer-events:none;filter:drop-shadow(0 16px 25px rgba(39,102,170,.14))}
+.slide-14 .venture-film-art{width:330px;right:-26px;bottom:-25px}
+.slide-14 .venture-career-art{width:334px;right:-34px;bottom:-26px}
+.slide-14 .venture-foot{position:absolute;left:20px;right:20px;bottom:0;height:58px;display:flex;align-items:center;gap:14px;margin:0;border-top:1px solid rgba(63,126,193,.20);font:600 16px/1.35 var(--sans);color:#265f9e;z-index:5}
+.slide-14 .venture-foot svg{width:25px;height:25px;flex:0 0 auto;stroke-width:1.8;color:#1261b9}
+
+.slide-14 .innovation-thesis{position:relative;z-index:3;width:max-content;max-width:620px;margin:20px auto 0;padding:0 76px;text-align:center;font:600 28px/1.42 var(--serif);color:#0a438d;white-space:pre-line}
+.slide-14 .innovation-thesis::before,.slide-14 .innovation-thesis::after{content:"";position:absolute;top:50%;width:62px;height:1px;background:linear-gradient(90deg,transparent,#2f72bd)}
+.slide-14 .innovation-thesis::before{left:0}
+.slide-14 .innovation-thesis::after{right:0;transform:scaleX(-1)}
+
+@media(max-width:760px){
+ .slide-14 .innovation-scene{display:none}
+ .slide-14 .slide-content{inset:auto}
+ .slide-14 .innovation-grid{display:flex;height:auto;flex-direction:column;gap:22px}
+ .slide-14 .venture{height:500px}
+ .slide-14 .venture-copy{left:46%;width:45%}
+ .slide-14 .venture-cover{width:42%}
+ .slide-14 .venture-art{opacity:.42}
+}

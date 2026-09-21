@@ -1,0 +1,812 @@
+{
+  "0243a48107f88005c48c2ba349b93dc6.jpg": {
+    "src": "assets/001.webp",
+    "thumb": "assets/001-sm.webp",
+    "width": 1577,
+    "height": 1140
+  },
+  "08f6509fd47cda385fe49a20aaca2ec1.jpg": {
+    "src": "assets/002.webp",
+    "thumb": "assets/002-sm.webp",
+    "width": 1621,
+    "height": 1080
+  },
+  "0927adddc36b3ca7f115049bae3d24ad.jpg": {
+    "src": "assets/003.webp",
+    "thumb": "assets/003-sm.webp",
+    "width": 1440,
+    "height": 1080
+  },
+  "0a95786efe60570049f090102461f1fe.jpg": {
+    "src": "assets/004.webp",
+    "thumb": "assets/004-sm.webp",
+    "width": 1278,
+    "height": 1706
+  },
+  "0c3af48e0e18d91fea9da24d229bf8e7.jpg": {
+    "src": "assets/005.webp",
+    "thumb": "assets/005-sm.webp",
+    "width": 1179,
+    "height": 1484
+  },
+  "0dcb4794ff0fc4e0f8608ca781899554.jpg": {
+    "src": "assets/006.webp",
+    "thumb": "assets/006-sm.webp",
+    "width": 1142,
+    "height": 1707
+  },
+  "13a657538261eb62b398f464a769034a.jpg": {
+    "src": "assets/007.webp",
+    "thumb": "assets/007-sm.webp",
+    "width": 1126,
+    "height": 1575
+  },
+  "18668b0e453ebccedddff2e6dd27084e.jpg": {
+    "src": "assets/008.webp",
+    "thumb": "assets/008-sm.webp",
+    "width": 1920,
+    "height": 1080
+  },
+  "18baf265c2faac9c7b623e855f6a4f2c.jpg": {
+    "src": "assets/009.webp",
+    "thumb": "assets/009-sm.webp",
+    "width": 2293,
+    "height": 1280
+  },
+  "203b1b113b56e50c5804e1486c43bd60.jpg": {
+    "src": "assets/010.webp",
+    "thumb": "assets/010-sm.webp",
+    "width": 400,
+    "height": 572
+  },
+  "20b1729167aee5fa8d56740ddcb054e8.jpg": {
+    "src": "assets/011.webp",
+    "thumb": "assets/011-sm.webp",
+    "width": 1179,
+    "height": 1174
+  },
+  "2120880cbe54ba3de4e372f8f170f528.jpg": {
+    "src": "assets/012.webp",
+    "thumb": "assets/012-sm.webp",
+    "width": 600,
+    "height": 840
+  },
+  "2277e0b194502d549626883f66b3a6f8.jpg": {
+    "src": "assets/013.webp",
+    "thumb": "assets/013-sm.webp",
+    "width": 1137,
+    "height": 793
+  },
+  "319a52484e50e712ac036fa84fddceac.jpg": {
+    "src": "assets/014.webp",
+    "thumb": "assets/014-sm.webp",
+    "width": 1179,
+    "height": 931
+  },
+  "32de8551681256ca4f9004197cd1e5c3.jpg": {
+    "src": "assets/015.webp",
+    "thumb": "assets/015-sm.webp",
+    "width": 1147,
+    "height": 806
+  },
+  "426dff6eeec9ef78df38d6b598531a02.jpg": {
+    "src": "assets/016.webp",
+    "thumb": "assets/016-sm.webp",
+    "width": 1260,
+    "height": 2714
+  },
+  "4b2dd1614e5c87061db1d0790777333a.jpg": {
+    "src": "assets/017.webp",
+    "thumb": "assets/017-sm.webp",
+    "width": 2842,
+    "height": 1280
+  },
+  "6874f4868a151d7d8a5305e942f109fb.jpg": {
+    "src": "assets/018.webp",
+    "thumb": "assets/018-sm.webp",
+    "width": 640,
+    "height": 640
+  },
+  "6fa545f5dcccc535e1bc2ed80acfdbaf.jpg": {
+    "src": "assets/019.webp",
+    "thumb": "assets/019-sm.webp",
+    "width": 640,
+    "height": 640
+  },
+  "83d9343c1c5d6859c8fcb9ae1299eb64.jpg": {
+    "src": "assets/020.webp",
+    "thumb": "assets/020-sm.webp",
+    "width": 1179,
+    "height": 936
+  },
+  "86ae201d18033e77f49f0afc77d2746c.jpg": {
+    "src": "assets/021.webp",
+    "thumb": "assets/021-sm.webp",
+    "width": 1179,
+    "height": 923
+  },
+  "86bf0821d1c89ac7f200281beaa5c8af.jpg": {
+    "src": "assets/022.webp",
+    "thumb": "assets/022-sm.webp",
+    "width": 1260,
+    "height": 2722
+  },
+  "86cff1e11dcc13523d7843ada07f18cb.jpg": {
+    "src": "assets/023.webp",
+    "thumb": "assets/023-sm.webp",
+    "width": 1179,
+    "height": 2556
+  },
+  "8d05c071712d5a0786ae1abca1bfec7a.jpg": {
+    "src": "assets/024.webp",
+    "thumb": "assets/024-sm.webp",
+    "width": 1280,
+    "height": 1725
+  },
+  "91f461f9ed9c86aea354d8420e388fef.jpg": {
+    "src": "assets/025.webp",
+    "thumb": "assets/025-sm.webp",
+    "width": 1142,
+    "height": 1601
+  },
+  "9b839e0182bc5d1145a4e351d5d61a26.jpg": {
+    "src": "assets/026.webp",
+    "thumb": "assets/026-sm.webp",
+    "width": 1590,
+    "height": 1137
+  },
+  "Image (6).png": {
+    "src": "assets/027.webp",
+    "thumb": "assets/027-sm.webp",
+    "width": 1792,
+    "height": 2400
+  },
+  "a075a02fbf0b64e90b433737b571e824.jpg": {
+    "src": "assets/028.webp",
+    "thumb": "assets/028-sm.webp",
+    "width": 1179,
+    "height": 816
+  },
+  "adcb3c5667a89763903bb92156eb6bb3.jpg": {
+    "src": "assets/029.webp",
+    "thumb": "assets/029-sm.webp",
+    "width": 1080,
+    "height": 1080
+  },
+  "b206ea0eebbdc9bc857c172c809ba940.jpg": {
+    "src": "assets/030.webp",
+    "thumb": "assets/030-sm.webp",
+    "width": 1179,
+    "height": 1775
+  },
+  "b27a88c2377e573c173ce3784b0aed45.jpg": {
+    "src": "assets/031.webp",
+    "thumb": "assets/031-sm.webp",
+    "width": 1131,
+    "height": 809
+  },
+  "b4f8c2f08ff888900018e3a3a649dafa.jpg": {
+    "src": "assets/032.webp",
+    "thumb": "assets/032-sm.webp",
+    "width": 1557,
+    "height": 1141
+  },
+  "b82fa20664e34226d3aa0ee9e3f53ae5.jpg": {
+    "src": "assets/033.webp",
+    "thumb": "assets/033-sm.webp",
+    "width": 1138,
+    "height": 851
+  },
+  "ca2af9b7f8de49713dc79c3695d67b9e.jpg": {
+    "src": "assets/034.webp",
+    "thumb": "assets/034-sm.webp",
+    "width": 1179,
+    "height": 2556
+  },
+  "cc4b9f7c7b22b03e7d11d18313da8d65.jpg": {
+    "src": "assets/035.webp",
+    "thumb": "assets/035-sm.webp",
+    "width": 1179,
+    "height": 945
+  },
+  "d088f9e09736b938b0766ad014a20413.jpg": {
+    "src": "assets/036.webp",
+    "thumb": "assets/036-sm.webp",
+    "width": 1080,
+    "height": 1438
+  },
+  "d2e3c50b6db99219aa44a54cbba36ead.jpg": {
+    "src": "assets/037.webp",
+    "thumb": "assets/037-sm.webp",
+    "width": 1132,
+    "height": 801
+  },
+  "d6f5ab96a2d6175e9fc1be12e04f1cf3.jpg": {
+    "src": "assets/038.webp",
+    "thumb": "assets/038-sm.webp",
+    "width": 1596,
+    "height": 1134
+  },
+  "image 1.png": {
+    "src": "assets/039.webp",
+    "thumb": "assets/039-sm.webp",
+    "width": 2000,
+    "height": 3000
+  },
+  "image 10.png": {
+    "src": "assets/040.webp",
+    "thumb": "assets/040-sm.webp",
+    "width": 1075,
+    "height": 673
+  },
+  "image 11.png": {
+    "src": "assets/041.webp",
+    "thumb": "assets/041-sm.webp",
+    "width": 960,
+    "height": 540
+  },
+  "image 2.png": {
+    "src": "assets/042.webp",
+    "thumb": "assets/042-sm.webp",
+    "width": 2460,
+    "height": 1088
+  },
+  "image 3.png": {
+    "src": "assets/043.webp",
+    "thumb": "assets/043-sm.webp",
+    "width": 720,
+    "height": 1280
+  },
+  "image 4.png": {
+    "src": "assets/044.webp",
+    "thumb": "assets/044-sm.webp",
+    "width": 1724,
+    "height": 504
+  },
+  "image 5.png": {
+    "src": "assets/045.webp",
+    "thumb": "assets/045-sm.webp",
+    "width": 4874,
+    "height": 6476
+  },
+  "image 6.png": {
+    "src": "assets/046.webp",
+    "thumb": "assets/046-sm.webp",
+    "width": 1184,
+    "height": 788
+  },
+  "image 7.png": {
+    "src": "assets/047.webp",
+    "thumb": "assets/047-sm.webp",
+    "width": 1800,
+    "height": 1290
+  },
+  "image 8.png": {
+    "src": "assets/048.webp",
+    "thumb": "assets/048-sm.webp",
+    "width": 1152,
+    "height": 2048
+  },
+  "image 9.png": {
+    "src": "assets/049.webp",
+    "thumb": "assets/049-sm.webp",
+    "width": 1600,
+    "height": 2848
+  },
+  "image.png": {
+    "src": "assets/050.webp",
+    "thumb": "assets/050-sm.webp",
+    "width": 720,
+    "height": 1280
+  },
+  "jimeng-2026-02-04-9724-参考图1生成易小麟的3D立体形象，保持金色系配色和所有设计元素，包括星空眼睛、米....png": {
+    "src": "assets/051.webp",
+    "thumb": "assets/051-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "博学小马精灵_三视图.png": {
+    "src": "assets/052.webp",
+    "thumb": "assets/052-sm.webp",
+    "width": 2752,
+    "height": 1536
+  },
+  "博学小马精灵_动作姿态.jpg": {
+    "src": "assets/053.webp",
+    "thumb": "assets/053-sm.webp",
+    "width": 2730,
+    "height": 1536
+  },
+  "博学小马精灵三视图.png": {
+    "src": "assets/054.webp",
+    "thumb": "assets/054-sm.webp",
+    "width": 1376,
+    "height": 768
+  },
+  "口红品牌广告.jpg": {
+    "src": "assets/055.webp",
+    "thumb": "assets/055-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "古风-试稿.jpg": {
+    "src": "assets/056.webp",
+    "thumb": "assets/056-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "户外品牌广告.jpg": {
+    "src": "assets/057.webp",
+    "thumb": "assets/057-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "护肤品牌广告.jpg": {
+    "src": "assets/058.webp",
+    "thumb": "assets/058-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "拼图小马三视图与动作延展.png": {
+    "src": "assets/059.webp",
+    "thumb": "assets/059-sm.webp",
+    "width": 1376,
+    "height": 768
+  },
+  "拼图独角兽三视图.jpg": {
+    "src": "assets/060.webp",
+    "thumb": "assets/060-sm.webp",
+    "width": 2560,
+    "height": 1440
+  },
+  "拼图独角兽动作姿态.png": {
+    "src": "assets/061.webp",
+    "thumb": "assets/061-sm.webp",
+    "width": 2752,
+    "height": 1536
+  },
+  "数小骅_害羞遮脸.png": {
+    "src": "assets/062.webp",
+    "thumb": "assets/062-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "数小骅_思考加载中_修正版.jpg": {
+    "src": "assets/063.webp",
+    "thumb": "assets/063-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "数小骅_爱心投射.png": {
+    "src": "assets/064.webp",
+    "thumb": "assets/064-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "数小骅_真诚感谢_修正版.png": {
+    "src": "assets/065.webp",
+    "thumb": "assets/065-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "数小骅_确认点头.jpg": {
+    "src": "assets/066.webp",
+    "thumb": "assets/066-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "数小骅_调皮眨眼.png": {
+    "src": "assets/067.webp",
+    "thumb": "assets/067-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "易小麟OK手势确认.png": {
+    "src": "assets/068.webp",
+    "thumb": "assets/068-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟举杯庆祝干杯.png": {
+    "src": "assets/069.webp",
+    "thumb": "assets/069-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟双手点赞.png": {
+    "src": "assets/070.webp",
+    "thumb": "assets/070-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟唐装恭喜拜年（修改版）.png": {
+    "src": "assets/071.webp",
+    "thumb": "assets/071-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟坐地大哭（修改版）.png": {
+    "src": "assets/072.webp",
+    "thumb": "assets/072-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟委屈哭泣.png": {
+    "src": "assets/073.webp",
+    "thumb": "assets/073-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟害羞脸红.png": {
+    "src": "assets/074.webp",
+    "thumb": "assets/074-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟感恩致谢.png": {
+    "src": "assets/075.webp",
+    "thumb": "assets/075-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟感谢红心PopMart风格.png": {
+    "src": "assets/076.webp",
+    "thumb": "assets/076-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟抱文件确认.png": {
+    "src": "assets/077.webp",
+    "thumb": "assets/077-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟抱红包发财.png": {
+    "src": "assets/078.webp",
+    "thumb": "assets/078-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟招财金元宝.png": {
+    "src": "assets/079.webp",
+    "thumb": "assets/079-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟放鞭炮.png": {
+    "src": "assets/080.webp",
+    "thumb": "assets/080-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟敬礼确认 (1).png": {
+    "src": "assets/081.webp",
+    "thumb": "assets/081-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟楚楚可怜.png": {
+    "src": "assets/082.webp",
+    "thumb": "assets/082-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟欢乐跳跃.png": {
+    "src": "assets/083.webp",
+    "thumb": "assets/083-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟毕业庆祝.png": {
+    "src": "assets/084.webp",
+    "thumb": "assets/084-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟点赞.png": {
+    "src": "assets/085.webp",
+    "thumb": "assets/085-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟生气鼓腮.png": {
+    "src": "assets/086.webp",
+    "thumb": "assets/086-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟用力点头赞同.png": {
+    "src": "assets/087.webp",
+    "thumb": "assets/087-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟调皮吐舌.png": {
+    "src": "assets/088.webp",
+    "thumb": "assets/088-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟贴倒福.png": {
+    "src": "assets/089.webp",
+    "thumb": "assets/089-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟马年吉祥唐装.png": {
+    "src": "assets/090.webp",
+    "thumb": "assets/090-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易小麟骑木马马到成功.png": {
+    "src": "assets/091.webp",
+    "thumb": "assets/091-sm.webp",
+    "width": 2048,
+    "height": 2048
+  },
+  "易米实验室丙午马年新年贺卡_调整版.png": {
+    "src": "assets/092.webp",
+    "thumb": "assets/092-sm.webp",
+    "width": 3072,
+    "height": 5504
+  },
+  "欠债天尊-第一集.jpg": {
+    "src": "assets/093.webp",
+    "thumb": "assets/093-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "汽车品牌广告-蔚来.jpg": {
+    "src": "assets/094.webp",
+    "thumb": "assets/094-sm.webp",
+    "width": 900,
+    "height": 384
+  },
+  "法小骥_专注研读表情.png": {
+    "src": "assets/095.webp",
+    "thumb": "assets/095-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥_悲伤同情表情.png": {
+    "src": "assets/096.webp",
+    "thumb": "assets/096-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥_收到任务表情_角色一致版.png": {
+    "src": "assets/097.webp",
+    "thumb": "assets/097-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥_温柔喜悦表情.png": {
+    "src": "assets/098.webp",
+    "thumb": "assets/098-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥_生气反对表情.png": {
+    "src": "assets/099.webp",
+    "thumb": "assets/099-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥_赞许认可表情.png": {
+    "src": "assets/100.webp",
+    "thumb": "assets/100-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_击掌庆祝_修正版.png": {
+    "src": "assets/101.webp",
+    "thumb": "assets/101-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_夜晚安睡.png": {
+    "src": "assets/102.webp",
+    "thumb": "assets/102-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_安排妥了_最终版.jpg": {
+    "src": "assets/103.webp",
+    "thumb": "assets/103-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_并肩冲刺_修正版.jpg": {
+    "src": "assets/104.webp",
+    "thumb": "assets/104-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_春节拜年.jpg": {
+    "src": "assets/105.webp",
+    "thumb": "assets/105-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "法小骥与数小骅_温暖安慰_修正版.png": {
+    "src": "assets/106.webp",
+    "thumb": "assets/106-sm.webp",
+    "width": 1024,
+    "height": 1024
+  },
+  "浮生一日.jpg": {
+    "src": "assets/107.webp",
+    "thumb": "assets/107-sm.webp",
+    "width": 1018,
+    "height": 1453
+  },
+  "海外精品剧《和谐号快车Harmony Express》.jpg": {
+    "src": "assets/108.webp",
+    "thumb": "assets/108-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "炮灰嫡女-第一集.jpg": {
+    "src": "assets/109.webp",
+    "thumb": "assets/109-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "烂尾房变成别人空间-第一集.jpg": {
+    "src": "assets/110.webp",
+    "thumb": "assets/110-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "珠宝品牌广告.jpg": {
+    "src": "assets/111.webp",
+    "thumb": "assets/111-sm.webp",
+    "width": 900,
+    "height": 1587
+  },
+  "电子产品品牌广告.jpg": {
+    "src": "assets/112.webp",
+    "thumb": "assets/112-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "箱包品牌广告.jpg": {
+    "src": "assets/113.webp",
+    "thumb": "assets/113-sm.webp",
+    "width": 900,
+    "height": 501
+  },
+  "精品剧《审判》.jpg": {
+    "src": "assets/114.webp",
+    "thumb": "assets/114-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "茶叶品牌广告.jpg": {
+    "src": "assets/115.webp",
+    "thumb": "assets/115-sm.webp",
+    "width": 900,
+    "height": 1617
+  },
+  "裴总他假戏真做-第一集.jpg": {
+    "src": "assets/116.webp",
+    "thumb": "assets/116-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "邱总他不能生-第一集.jpg": {
+    "src": "assets/117.webp",
+    "thumb": "assets/117-sm.webp",
+    "width": 900,
+    "height": 1599
+  },
+  "cover-portrait-original-v3.jpg": {
+    "src": "assets/cover-portrait-original-v3.jpg",
+    "thumb": "assets/cover-portrait-original-v3-sm.webp",
+    "width": 1279,
+    "height": 1919
+  },
+  "bytedance-interview-email.png": {
+    "src": "assets/interview-v1/email.webp",
+    "thumb": "assets/interview-v1/email-sm.webp",
+    "width": 994,
+    "height": 1400
+  },
+  "bytedance-interview-email-body.png": {
+    "src": "assets/interview-v1/email-body.webp",
+    "thumb": "assets/interview-v1/email-body-sm.webp",
+    "width": 868,
+    "height": 353
+  },
+  "bytedance-logo-transparent.png": {
+    "src": "assets/interview-v1/logo.webp",
+    "thumb": "assets/interview-v1/logo-sm.webp",
+    "width": 1124,
+    "height": 286
+  },
+  "brand-logo-chicmax.png": {
+    "src": "assets/brand-v1/logo-chicmax.webp",
+    "thumb": "assets/brand-v1/logo-chicmax-sm.webp",
+    "width": 1010,
+    "height": 108
+  },
+  "brand-logo-kans.png": {
+    "src": "assets/brand-v1/logo-kans.webp",
+    "thumb": "assets/brand-v1/logo-kans-sm.webp",
+    "width": 852,
+    "height": 537
+  },
+  "brand-product-377-cleanser.png": {
+    "src": "assets/brand-v1/product-377-cleanser.webp",
+    "thumb": "assets/brand-v1/product-377-cleanser-sm.webp",
+    "width": 1339,
+    "height": 3668
+  },
+  "brand-product-377-toner.png": {
+    "src": "assets/brand-v1/product-377-toner.webp",
+    "thumb": "assets/brand-v1/product-377-toner-sm.webp",
+    "width": 567,
+    "height": 2025
+  },
+  "brand-product-cleanser.png": {
+    "src": "assets/brand-v1/product-cleanser.webp",
+    "thumb": "assets/brand-v1/product-cleanser-sm.webp",
+    "width": 508,
+    "height": 1182
+  },
+  "brand-product-kit.png": {
+    "src": "assets/brand-v1/product-kit.webp",
+    "thumb": "assets/brand-v1/product-kit-sm.webp",
+    "width": 617,
+    "height": 440
+  },
+  "brand-product-device-black.png": {
+    "src": "assets/brand-v1/product-device-black.webp",
+    "thumb": "assets/brand-v1/product-device-black-sm.webp",
+    "width": 806,
+    "height": 1546
+  },
+  "netjoy-logo-transparent.png": {
+    "src": "assets/netjoy-v1/logo-netjoy.webp",
+    "thumb": "assets/netjoy-v1/logo-netjoy-sm.webp",
+    "width": 1445,
+    "height": 225
+  },
+  "brand-product-device-gold.png": {
+    "src": "assets/brand-v1/product-device-gold.webp",
+    "thumb": "assets/brand-v1/product-device-gold-sm.webp",
+    "width": 1313,
+    "height": 2446
+  },
+  "静安体育季短片.jpg": {
+    "src": "assets/118.webp",
+    "thumb": "assets/118-sm.webp",
+    "width": 900,
+    "height": 507
+  },
+  "guangdong-company-account-board.png": {
+    "src": "assets/guangdong-campus-v2/company-account.webp",
+    "thumb": "assets/guangdong-campus-v2/company-account.webp",
+    "width": 707,
+    "height": 1356
+  },
+  "guangdong-content-account-board.png": {
+    "src": "assets/guangdong-campus-v2/content-account.webp",
+    "thumb": "assets/guangdong-campus-v2/content-account.webp",
+    "width": 693,
+    "height": 1378
+  },
+  "guangdong-graphics-board.png": {
+    "src": "assets/guangdong-campus-v2/graphics-wall.webp",
+    "thumb": "assets/guangdong-campus-v2/graphics-wall.webp",
+    "width": 1100,
+    "height": 643
+  },
+  "guangdong-partnership-board.png": {
+    "src": "assets/guangdong-campus-v2/partnership.webp",
+    "thumb": "assets/guangdong-campus-v2/partnership.webp",
+    "width": 760,
+    "height": 1009
+  }
+}

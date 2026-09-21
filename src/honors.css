@@ -1,0 +1,130 @@
+/* Page 11 only — campus honor archive with one live certificate and a complete text record. */
+.slide-11{
+ --honors-blue:#0d4389;
+ --honors-red:#c7223b;
+ --honors-gold:#d7a338;
+ --honors-gold-deep:#916016;
+ --honors-ivory:#fffaf0;
+}
+
+.slide-11 .slide-content{top:88px;left:82px;right:130px;bottom:76px}
+.slide-11 .slide-meta{z-index:8;text-shadow:0 1px 8px #fff,0 0 14px #fff}
+.slide-11 .section-heading{position:relative;z-index:4;margin-bottom:20px}
+.slide-11 .section-heading .eyebrow{margin-bottom:8px;color:var(--honors-blue)}
+.slide-11 .section-heading .gold-rule{background:var(--honors-blue)}
+.reveal .slides .slide-11 .section-heading h2{
+ font-size:54px;font-weight:650;color:#0a3975;letter-spacing:.02em;
+ text-shadow:0 2px 12px #fff9;
+}
+
+.slide-11 .honors-showcase{
+ position:relative;z-index:3;isolation:isolate;display:grid;
+ grid-template-columns:31.5% minmax(0,1fr);gap:18px;
+ height:604px;margin:0;padding:0;
+}
+.slide-11 .honors-scene{
+ position:absolute;z-index:-2;pointer-events:none;overflow:hidden;
+ top:-194px;left:-82px;right:-130px;bottom:-76px;
+}
+.slide-11 .honors-scene img{position:absolute;display:block;width:100%;height:100%;object-fit:cover}
+.slide-11 .honors-gold-ribbon{
+ left:0!important;right:0;top:auto!important;bottom:-10px;height:43%!important;
+ object-fit:fill!important;opacity:.8;
+}
+.slide-11 .honors-foliage{inset:0;z-index:2;opacity:.64}
+.slide-11 .honors-script{
+ position:absolute;z-index:1;top:140px;right:230px;
+ font-family:"Snell Roundhand","Segoe Script","STKaiti",cursive;
+ font-size:27px;line-height:1.05;font-style:italic;color:#4489d7;letter-spacing:.02em;
+ transform:rotate(-8deg);text-shadow:0 2px 12px #fff;
+}
+.slide-11 .honors-script::after{
+ content:'';display:block;width:190px;height:2px;margin:8px 0 0 4px;
+ background:linear-gradient(90deg,#4c90dc,transparent);transform:skewX(-28deg);
+}
+
+.slide-11 .certificate-focus{
+ position:relative;z-index:2;min-width:0;min-height:0;overflow:visible;
+ padding:0;display:block;border:0;border-radius:20px;background:transparent;box-shadow:none;
+}
+.slide-11 .honor-focus-shell{
+ position:absolute;z-index:0;inset:-4px;width:calc(100% + 8px);height:calc(100% + 8px);
+ object-fit:fill;pointer-events:none;filter:drop-shadow(0 12px 18px #72501c24);
+}
+.slide-11 .honor-focus-heading{
+ position:absolute;z-index:3;top:82px;left:26px;right:26px;text-align:center;
+}
+.slide-11 .certificate-focus .archive-label{
+ height:31px;display:flex;align-items:center;justify-content:center;gap:9px;
+ font-family:var(--sans);font-size:22px;line-height:1.2;letter-spacing:0;
+ font-weight:600;color:var(--honors-gold-deep);
+}
+.slide-11 .certificate-focus .archive-label svg{width:21px;height:21px;color:var(--honors-gold-deep)}
+.slide-11 .archive-label>span:last-child{white-space:nowrap;font-variant-numeric:tabular-nums}
+.reveal .slides .slide-11 .honor-focus-heading h3{
+ margin:19px 0 0;font-family:var(--sans);font-size:30px;line-height:1.18;
+ font-weight:750;color:#103f7c;letter-spacing:.01em;text-wrap:balance;
+}
+.slide-11 .honor-focus-name,.slide-11 .honor-focus-award{display:block}
+.slide-11 .honor-focus-award{margin-top:6px}
+
+.slide-11 .certificate-stage{
+ position:absolute;z-index:3;left:5.6%;right:5.6%;top:39%;height:43.6%;
+ min-height:0;margin:0;display:grid;place-items:center;overflow:hidden;
+ border-radius:7px;background:#fffdf9;
+ box-shadow:0 5px 16px #795a2814,inset 0 0 0 1px #d7a33866;
+}
+.slide-11 .certificate-stage>.image-frame{
+ width:100%;height:100%;min-width:0;min-height:0;margin:0;padding:7px;
+ border:0;border-radius:6px;background:#fffdf9;box-shadow:none;
+}
+.slide-11 .honors-showcase .image-button{
+ position:relative;inset:auto;display:block;width:100%;height:100%;padding:0;
+ line-height:0;border-radius:4px;overflow:hidden;
+}
+.slide-11 .honors-showcase .image-button img{
+ display:block;width:100%;height:100%;object-fit:contain;transform:none;filter:none;transition:none;
+}
+.slide-11 .honors-showcase .zoom-affordance{
+ width:30px;height:30px;right:6px;bottom:6px;border-radius:50%;
+ color:var(--honors-gold-deep);background:#fffaf0ed;border:1px solid #d7a33873;
+}
+.slide-11 .honor-play-symbol{
+ position:absolute;z-index:4;right:31px;bottom:20px;width:44px;height:44px;
+ display:grid;place-items:center;color:var(--honors-gold-deep);
+ border:1px solid #d7a3389c;border-radius:50%;background:#fffaf0ed;
+ box-shadow:0 5px 14px #76501d1c,inset 0 1px 0 #fff;
+}
+.slide-11 .honor-play-symbol:hover{background:#f7e7c2}
+
+.slide-11 .honor-narrative{
+ position:relative;z-index:2;min-width:0;min-height:0;overflow:visible;
+ padding:28px 30px 26px;border:0;border-radius:20px;background:transparent;box-shadow:none;
+}
+.slide-11 .honor-narrative-shell{
+ position:absolute;z-index:0;inset:-4px;width:calc(100% + 8px);height:calc(100% + 8px);
+ object-fit:fill;pointer-events:none;filter:drop-shadow(0 12px 18px #72501c1b);
+}
+.slide-11 .honor-narrative ul{
+ position:relative;z-index:2;display:flex;flex-direction:column;justify-content:space-between;
+ height:100%;gap:3px;list-style:none;padding:0;margin:0;
+}
+.slide-11 .honor-narrative li{
+ position:relative;min-width:0;flex-shrink:0;padding-left:18px;
+}
+.slide-11 .honor-narrative li::before{
+ content:'';position:absolute;left:1px;top:13px;width:5px;height:5px;
+ border-radius:50%;background:var(--honors-gold);box-shadow:0 0 6px #d7a33845;
+}
+.reveal .slides .slide-11 .honor-narrative p{
+ margin:0;font-family:var(--sans);font-size:24px;line-height:1.28;font-weight:560;
+ color:#16457f;letter-spacing:-.015em;white-space:normal;text-wrap:pretty;
+}
+.reveal .slides .slide-11 .honor-narrative strong{
+ font-weight:780;color:var(--honors-red);
+}
+
+.slide-11 .honors-showcase:focus-visible,
+.slide-11 .honors-showcase button:focus-visible{
+ outline:3px solid var(--honors-gold-deep);outline-offset:3px;
+}

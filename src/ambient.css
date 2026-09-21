@@ -1,0 +1,235 @@
+/* V5 — supplied ice-blue reference boards, desktop presentation only.
+   Facts, image proportions, page structure and the approved cover crop stay intact. */
+:root{
+ --bg-dark:#EAF4FF;--bg-dark-2:#DCECFB;--ivory:#F8FCFF;
+ --gold:#315F9D;--red:#AA3448;--tech-blue:#315F9D;
+ --text-light:#15376B;--text-muted:#466382;--line:#315f9d30;
+ --ambient-ink:#15376B;--ambient-accent:#315F9D;--ambient-muted:#466382;
+ --ambient-paper:#F8FCFF;--ambient-shadow:0 12px 30px #15376b0a;
+ color-scheme:light;background:#EAF4FF;color:var(--ambient-ink);
+}
+.defense-app.ambient-theme{background:#DCECFB}
+.defense-app.ambient-theme:has(.slide-1.present){background:#DCECFB}
+.reveal .slides>section.ambient-slide{
+ --text-light:#15376B;--text-muted:#466382;--line:#315f9d30;
+ color:var(--ambient-ink);color-scheme:light;
+ background:#EAF4FF var(--scene-background) center/cover no-repeat;
+}
+.reveal .slides>section.ambient-slide::before{display:none}
+
+/* Editorial headings remain the chapter's conclusion, not a glass-card label. */
+.ambient-slide .slide-meta{color:var(--ambient-muted);border-color:var(--line)}
+.ambient-slide .slide-meta i{color:var(--ambient-muted)}
+.ambient-slide .meta-symbol{color:var(--ambient-accent)}
+.ambient-slide .eyebrow{color:var(--ambient-accent);font-size:11px;letter-spacing:.2em}
+.ambient-slide .gold-rule{background:var(--ambient-accent)}
+.reveal .slides .ambient-slide .section-heading h2{
+ color:var(--ambient-ink);font-size:50px;font-weight:600;
+ line-height:1.3;letter-spacing:.01em;text-shadow:none;text-wrap:balance;
+}
+.ambient-slide .section-subtitle{color:var(--ambient-muted)}
+.ambient-slide .tag{
+ color:var(--ambient-accent);border:1px solid #315f9d26;
+ border-radius:999px;background:#f8fcffb8;padding:5px 12px;
+}
+.ambient-slide .archive-label{color:var(--ambient-accent)}
+.ambient-slide .stat-value{color:var(--ambient-accent);font-variant-numeric:tabular-nums}
+.ambient-slide .stat-label{color:var(--ambient-muted)}
+.ambient-slide .page-statement{
+ color:var(--ambient-ink);background:#f8fcff9c;border-color:var(--line);
+ border-radius:0 0 12px 12px;padding:12px 15px;
+}
+.ambient-slide .portfolio-bottom{color:var(--ambient-muted);font-size:11px}
+
+/* Real photographs and complete proofs are foreground, the reference board is scenery. */
+.ambient-slide .archive-mount{
+ background:#f8fcffd9;color:var(--ambient-ink);border:1px solid #ffffffd9;
+ padding:10px 10px 0;border-radius:14px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .archive-mount::after{display:none}
+.ambient-slide .archive-mount>.image-frame{border-radius:7px}
+.ambient-slide .mount-label{color:var(--ambient-muted);min-height:28px;padding:8px 1px}
+.ambient-slide .image-button{border-radius:inherit}
+.ambient-slide .zoom-affordance{
+ background:#f8fcffe8;color:var(--ambient-accent);border:1px solid #315f9d26;
+ border-radius:9px;right:9px;bottom:9px;
+}
+.ambient-slide .image-button:focus-visible{outline:2px solid var(--ambient-accent);outline-offset:3px}
+
+/* 02 — the two professional first places are the visual anchor. */
+.ambient-slide .profile-photo{border-color:#ffffffdb;border-radius:10px;box-shadow:var(--ambient-shadow)}
+.ambient-slide .profile-column{border-color:var(--line)}
+.ambient-slide .profile-column h3,.ambient-slide .academic-support strong{color:var(--ambient-ink)}
+.ambient-slide .profile-column p{color:var(--ambient-muted)}
+.ambient-slide .academic-logos>.image-frame{background:#f8fcffc9;border-radius:8px}
+.ambient-slide .academic-metrics{background:#f8fcff75;border-radius:18px}
+.ambient-slide .rank>span,.ambient-slide .rank-value em,.ambient-slide .rank>p{color:var(--ambient-accent)}
+.ambient-slide .rank-rule{background:var(--ambient-accent)}
+.ambient-slide .academic-support p{color:var(--ambient-ink)}
+.ambient-slide .academic-note{color:var(--ambient-muted)}
+.ambient-slide .courses-column{border-color:var(--line)}
+.ambient-slide .courses-column .eyebrow{border-color:var(--line)}
+.ambient-slide .courses-column td:last-child{color:var(--ambient-accent)}
+
+/* 03 — the original five-stage storyboard floats over the growth landscape. */
+.ambient-slide .growth-intro>span{color:var(--ambient-muted)}
+.ambient-slide .growth-intro>p{color:var(--ambient-ink)}
+.ambient-slide .growth-storyboard{height:378px;margin-top:26px}
+.ambient-slide .growth-storyboard article{background:#f8fcffb3;border-radius:14px;padding-bottom:12px}
+.ambient-slide .growth-storyboard h3{color:var(--ambient-ink)}
+.ambient-slide .growth-storyboard p{color:var(--ambient-muted)}
+.ambient-slide .growth-storyboard h3,.ambient-slide .growth-storyboard p{padding-left:12px;padding-right:12px}
+.ambient-slide .growth-arrow{color:var(--ambient-accent)}
+.ambient-slide .growth-latest{
+ border:1px solid var(--line);background:#f8fcffba;border-radius:10px;
+ margin-top:20px;padding:10px 15px;
+}
+
+/* 04–06 — quiet commercial and production archive, clear blue metrics. */
+.ambient-slide .brand-sidebar>p,.ambient-slide .capability-mini p{color:var(--ambient-muted)}
+.ambient-slide .brand-logos .image-frame,.ambient-slide .company-label .image-frame{
+ border-color:#ffffffd9;background:#f8fcffd9;border-radius:8px;
+}
+.ambient-slide .product-hero{background:#f8fcffd9!important}
+.ambient-slide .brand-scene{height:492px}
+.ambient-slide .netjoy-scene{height:490px}
+.ambient-slide .guangdong-scene{height:488px}
+.ambient-slide .product-hero .mount-label{color:var(--ambient-accent)}
+.ambient-slide .drama-main .image-frame{background:#f8fcff}
+.ambient-slide .capability-mini h3{color:var(--ambient-ink)}
+.ambient-slide .operation-metrics>.big-stat{border-left:2px solid #315f9d30;padding-left:15px}
+
+/* 07 — two large original character dossiers; no animated sticker clutter. */
+.ambient-slide .horse-dossier,.ambient-slide .lab-dossier{
+ background:#f8fcffd9;border-color:#ffffffd9;border-radius:16px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .dossier-heading h3{color:var(--ambient-ink)}
+.ambient-slide .dossier-heading h3 span{color:var(--ambient-accent)}
+.ambient-slide .dossier-heading p{color:var(--ambient-muted);font-size:11px}
+.ambient-slide .character-sheets .image-frame,.ambient-slide .lab-feature>.image-frame{
+ background:#ffffffde;border-color:#315f9d1f;border-radius:7px;
+}
+.ambient-slide .expression-wall>.image-frame{border-color:#315f9d14;border-radius:6px}
+
+/* 08 — a lighter film library, with the public-screening project still dominant. */
+.ambient-slide .screening-feature{
+ background:#f8fcffd9;border-color:#ffffffd9;border-radius:16px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .screening-feature>.image-frame{border-radius:8px}
+.ambient-slide .screening-feature h3{color:var(--ambient-ink)}
+.ambient-slide .screening-feature>p{color:var(--ambient-ink)}
+.ambient-slide .screening-feature>span{color:var(--ambient-muted)}
+.ambient-slide .screening-feature .tag{background:#315f9d0d}
+.ambient-slide .portfolio-link{color:var(--ambient-accent)}
+.ambient-slide .portfolio-link:hover{color:var(--ambient-ink);text-decoration:underline;text-underline-offset:4px}
+.ambient-slide .work-card>.image-frame{
+ background:#f8fcffc9;border-color:#ffffffd9;border-radius:10px;padding:4px;
+ box-shadow:0 5px 14px #15376b08;
+}
+.ambient-slide .work-card>div>span{color:var(--ambient-muted);font-size:9px}
+.ambient-slide .work-card h3{color:var(--ambient-ink);font-size:11px;line-height:1.3}
+
+/* 09–11 — real award text and certificates retain complete proportions. */
+.ambient-slide .career-proof>div>span{color:var(--ambient-accent)}
+.ambient-slide .career-proof h3 strong,.ambient-slide .linky-dossier h3 strong{color:var(--ambient-accent)}
+.ambient-slide .career-proof p,.ambient-slide .linky-dossier>p,.ambient-slide .national-dossier>p{color:var(--ambient-muted)}
+.ambient-slide .career-proof>.image-frame,.ambient-slide .career-proof>div>.image-frame,
+.ambient-slide .linky-dossier>.image-frame,.ambient-slide .national-dossier>.image-frame{
+ border-color:#ffffffd9;background:#f8fcffc9;border-radius:9px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .linky-dossier,.ambient-slide .national-dossier{border-color:var(--line)}
+.ambient-slide .national-dossier h3{color:var(--ambient-ink)}
+.ambient-slide .values-intro span{color:var(--ambient-ink)}
+.ambient-slide .values-intro h3,.ambient-slide .values-wall p{color:var(--red)}
+.ambient-slide .values-intro small,.ambient-slide .values-intro>p{color:var(--ambient-muted)}
+.ambient-slide .values-wall h3{color:var(--ambient-ink)}
+.ambient-slide .certificate-focus{
+ background:#f8fcffe8;border-color:#ffffffd9;border-radius:16px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .certificate-focus .archive-label,.ambient-slide .certificate-archive .archive-label{color:var(--ambient-accent)}
+.ambient-slide .certificate-wall .image-frame{
+ background:#f8fcffd9;border-color:#ffffffd9;border-radius:9px;box-shadow:0 5px 14px #15376b08;
+}
+.ambient-slide .certificate-wall article>span{color:var(--ambient-muted)}
+.ambient-slide .carousel-controls>button{border-color:#315f9d30;background:#f8fcffd9;color:var(--ambient-accent)}
+.ambient-slide .carousel-controls>button:hover{background:#315f9d14}
+.ambient-slide .carousel-controls>div>span,.ambient-slide .carousel-controls p{color:var(--ambient-accent)}
+
+/* 12–15 — documentary evidence and human warmth over the same visual language. */
+.ambient-slide .studio-heading>.image-frame{border-color:#ffffffd9;border-radius:8px}
+.ambient-slide .studio-heading h3,.ambient-slide .campus-role h3{color:var(--ambient-ink)}
+.ambient-slide .studio-heading p,.ambient-slide .studio-list p,.ambient-slide .campus-role p{color:var(--ambient-muted)}
+.ambient-slide .studio-list{background:#f8fcffba;border-radius:8px;padding:6px 10px}
+.ambient-slide .studio-heading p strong,.ambient-slide .campus-role>span{color:var(--ambient-accent)}
+.ambient-slide .campus-roles{border-color:var(--line)}
+.ambient-slide .volunteer>p{color:var(--ambient-muted)}
+.ambient-slide .volunteer{background:#f8fcffba;border-radius:12px;padding:10px 12px}
+.ambient-slide .court-summary{border-color:var(--line)}
+.ambient-slide .court-summary>div>span,.ambient-slide .court-summary p{color:var(--ambient-muted)}
+.ambient-slide .court-summary h3{color:var(--ambient-ink)}
+.ambient-slide .venture{
+ background:#f8fcffba;border-color:#ffffffd9;border-radius:16px;box-shadow:var(--ambient-shadow);
+}
+.ambient-slide .venture-main>.image-frame{background:#f8fcff;border-color:#ffffffd9;border-radius:9px}
+.ambient-slide .venture-main h3{color:var(--ambient-ink)}
+.ambient-slide .venture-main>div>p,.ambient-slide .venture-tags span,.ambient-slide .venture-foot{color:var(--ambient-muted)}
+.ambient-slide .venture-top>svg{color:var(--ambient-accent)}
+.ambient-slide .innovation-thesis{color:var(--ambient-ink)}
+.reveal .slides .ambient-slide .ending-copy>h2{color:var(--ambient-ink);font-size:59px!important;text-shadow:none}
+.ambient-slide .ending-story p{color:var(--ambient-muted)}
+.ambient-slide .ending-gratitude{color:var(--ambient-accent)}
+.ambient-slide .ending-copy>h3{color:var(--ambient-ink);font-size:60px}
+.ambient-slide .ending-credit{color:var(--ambient-muted)}
+
+/* Fixed chrome: readable on both the reference board and desktop letterboxing. */
+.ambient-theme .global-count{color:var(--ambient-muted)}
+.ambient-theme .global-count strong{color:var(--ambient-ink);font-weight:500;font-variant-numeric:tabular-nums}
+.ambient-theme .vertical-navigation{
+ right:17px;padding:9px 8px;border:1px solid #ffffffd9;border-radius:13px;
+ background:#f8fcffb3;box-shadow:var(--ambient-shadow);backdrop-filter:blur(8px);
+}
+.ambient-theme .vertical-navigation button{color:var(--ambient-accent)}
+.ambient-theme .vertical-navigation button span{opacity:.7}
+.ambient-theme .vertical-navigation button i{background:var(--ambient-accent)}
+.ambient-theme .vertical-navigation button.active span{color:var(--ambient-ink);opacity:1;font-weight:600}
+.ambient-theme .vertical-navigation button.active i{background:var(--ambient-accent)}
+.ambient-theme .vertical-navigation button:hover span{opacity:1;color:var(--ambient-ink)}
+.ambient-theme .footer-left,.ambient-theme .footer-tools{
+ padding:3px 10px;border:1px solid #ffffffc9;border-radius:10px;background:#f8fcffb3;
+ box-shadow:0 4px 16px #15376b06;backdrop-filter:blur(8px);
+}
+.ambient-theme .footer-kicker,.ambient-theme .footer-current{color:var(--ambient-muted)}
+.ambient-theme .presentation-footer button{color:var(--ambient-accent);border-radius:6px}
+.ambient-theme .presentation-footer button:hover,.ambient-theme .presentation-footer .tool-active{color:var(--ambient-ink);background:#315f9d10}
+.ambient-theme .progress-track{background:#315f9d12}
+.ambient-theme .progress-track>div{background:var(--ambient-accent)}
+.reveal.overview .slides>section.ambient-slide{box-shadow:0 0 0 2px #315f9d26!important}
+.reveal.overview .slides>section.ambient-slide.present{box-shadow:0 0 0 4px var(--ambient-accent)!important}
+
+/* Light, restrained dialogs preserve Radix focus trapping and keyboard behavior. */
+.dialog-overlay{background:#15376b66;backdrop-filter:blur(8px)}
+.dialog-content{
+ color:var(--ambient-ink);background:#f8fcfff5;border-color:#ffffffde;border-radius:16px;
+ box-shadow:0 24px 90px #15376b26;overscroll-behavior:contain;
+}
+.dialog-close{color:var(--ambient-accent);border-radius:8px}
+.dialog-close:hover{background:#315f9d10}
+.lightbox{background:#f8fcfff5}
+.lightbox>p,.help-dialog>p,.text-editor-dialog>p{color:var(--ambient-muted)}
+.keyboard-map dt{color:var(--ambient-accent)}
+.text-editor-dialog .tiptap{background:#ffffffc9;border-color:var(--line);border-radius:8px;color:var(--ambient-ink)}
+.text-editor-dialog .tiptap:focus-visible{outline:2px solid var(--ambient-accent);outline-offset:2px}
+.primary-button{background:var(--ambient-accent);color:#F8FCFF;border-radius:8px}
+.primary-button:hover{background:var(--ambient-ink)}
+.notes-dialog .speaker-script{color:var(--ambient-ink)}
+.editor-toolbar{background:#f8fcfff5;border-color:var(--line);color:var(--ambient-ink)}
+.editor-label{color:var(--ambient-accent)}
+.editor-instructions,.save-state{color:var(--ambient-muted)}
+.save-state.error{color:var(--red)}
+.editing-mode .editable:hover{outline-color:#315f9d80}
+.editing-mode .edit-selected{outline-color:var(--ambient-accent)}
+
+@media(prefers-reduced-motion:reduce){
+ .ambient-theme .vertical-navigation button i,.ambient-theme .progress-track>div,
+ .ambient-slide .image-button img{transition:none}
+}
