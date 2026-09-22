@@ -387,9 +387,6 @@
   .reveal:not(.overview) .slides>.slide-15.present .ending-students{
     animation:deck-entrance-fade .72s var(--entrance-quiet-ease) .55s backwards;
   }
-  .reveal:not(.overview) .slides>.slide-15.present .ending-handoff-plane{
-    animation:deck-entrance-fade .62s var(--entrance-quiet-ease) .62s backwards;
-  }
   .reveal:not(.overview) .slides>.slide-15.present .ending-academy-stone{
     animation:deck-entrance-fade .66s var(--entrance-quiet-ease) .60s backwards;
   }

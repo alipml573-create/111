@@ -39,11 +39,11 @@ export const courses = ['故事片摄影', '影视照明与布光', '纪录片�
 
 // Page 12: complete user-supplied wording, including project and department names.
 export const campusRoles = [
- {key:'studio',title:'心引力工作室',text:'参与撰写心理剧本、连续两年荣获心理剧大赛一等奖、创作心理AIGC漫画《从“想太多”到“做的到”》、联合禁毒所打造AI禁毒漫画《试炼吧，少年！无毒星际篇》；今年成立AIGC试听开发部',highlights:['连续两年','一等奖','心理AIGC漫画','AI禁毒漫画','AIGC试听开发部']},
+ {key:'yiban',title:'上政易班视频制作部',text:'独立撰写优秀选题 10+篇；负责校内外摄制活动 7次；荣获“优秀工作人员”荣誉',highlights:['独立撰写','10+篇','7次','“优秀工作人员”']},
  {key:'reporter',title:'记者团新媒体运营部',text:'作为部门负责人统筹管理学院公众号、排版学院公众号推文100+篇、规范推文排版制作流程',highlights:['部门负责人','100+篇','规范推文排版制作流程']},
  {key:'class',title:'24481班长',text:'开展团日/班会活动 20+次；组织班级成员参与活动 40+次；班级风采大赛答题分 第一名',highlights:['20+次','40+次','第一名']},
- {key:'yiban',title:'上政易班视频制作部',text:'独立撰写优秀选题 10+篇；负责校内外摄制活动 7次；荣获“优秀工作人员”荣誉',highlights:['独立撰写','10+篇','7次','“优秀工作人员”']},
  {key:'office',title:'上海纪录片学院团委学生会办公室',text:'管理值班排班工作 8次；协助开展各项院级活动 5次 ；撰写各类活动策划案 5份；荣获“优秀部门” 6次',highlights:['8次','5次','5份','“优秀部门”','6次']},
+ {key:'studio',title:'心引力工作室',text:'参与撰写心理剧本、连续两年荣获心理剧大赛一等奖、创作心理AIGC漫画《从“想太多”到“做的到”》、联合禁毒所打造AI禁毒漫画《试炼吧，少年！无毒星际篇》；今年成立AIGC试听开发部',highlights:['连续两年','一等奖','心理AIGC漫画','AI禁毒漫画','AIGC试听开发部']},
  {key:'mentor',title:'担任25级新生/军训导生',text:'负责设计开展主题班会6次；主导撰写国防教育材料；协助辅导员设计公开课全校第二',highlights:['6次','国防教育材料','全校第二']},
 ] as const;
 
@@ -59,10 +59,8 @@ export const campusEvidence = [
 export const competitionEvidence = [
  {key:'career',title:'第三届全国大学生职业规划大赛',images:[
   {file:'image 7.png',caption:'校赛金奖（第一名）证书'},
-  {file:'0927adddc36b3ca7f115049bae3d24ad.jpg',caption:'上海市赛合影'},
   {file:'08f6509fd47cda385fe49a20aaca2ec1.jpg',caption:'上海市赛参赛照片'},
   {file:'d088f9e09736b938b0766ad014a20413.jpg',caption:'校赛参赛照片'},
-  {file:'image 11.png',caption:'参赛PPT封面'},
  ]},
  {key:'advertising',title:'第18届全国大学生广告艺术大赛',images:[
   {file:'8d05c071712d5a0786ae1abca1bfec7a.jpg',caption:'获奖证书'},

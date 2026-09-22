@@ -32,7 +32,7 @@ function Cover(){return <div className="cover-layout">
 <div className="cover-scene" aria-hidden="true">
  <img className="cover-media" src={coverVisual('media-cards.webp')} alt=""/>
  <img className="cover-laptop" src={coverVisual('editing-laptop.webp')} alt=""/>
- <img className="cover-boy" src={coverVisual('photographer-boy.webp')} alt=""/>
+ <img className="cover-boy" src={coverVisual('cover-person-user.png')} alt=""/>
  <img className="cover-film" src={coverVisual('film-ribbons.webp')} alt=""/>
  <img className="cover-cinema" src={coverVisual('cinema-books.webp')} alt=""/>
  <img className="cover-coffee" src={coverVisual('coffee-cup.webp')} alt=""/>
@@ -283,9 +283,8 @@ function Ending(){return <div className="ending-layout ending-campus-layout">
   <img className="ending-script ending-script-next" src={endingVisual('next-journey.webp')} alt=""/>
   <img className="ending-academy-stone" src={endingVisual('academy-stone.webp')} alt=""/>
   <img className="ending-memory-film" src={endingVisual('memory-film.webp')} alt=""/>
-  <img className="ending-lead" src={endingVisual('student-lead.webp')} alt=""/>
+  <img className="ending-lead" src={endingVisual('ending-person-user.png')} alt=""/>
   <img className="ending-students" src={endingVisual('students-reaching.webp')} alt=""/>
-  <img className="ending-handoff-plane" src={endingVisual('handoff-plane.webp')} alt=""/>
  </div>
  <div className="ending-copy">
   <div className="eyebrow"><span className="gold-rule"/><Txt id="ending-eyebrow">FUTURE PATH &amp; LEGACY</Txt></div>
